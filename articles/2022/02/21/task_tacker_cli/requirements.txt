@@ -1,0 +1,6 @@
+click
+colorama
+commonmark
+Pygments
+rich
+typer

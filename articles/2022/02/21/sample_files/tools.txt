@@ -1,0 +1,4 @@
+/home/learnbyexample/programs/command_help.sh
+/home/learnbyexample/bkp/calc.py
+/home/learnbyexample/programs/remove_duplicates.sh
+/home/learnbyexample/programs/calc.py

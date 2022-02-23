@@ -1,0 +1,4 @@
+Tool: /home/learnbyexample/programs/remove_duplicates.sh
+    * retains only first copy of duplicate lines
+    * maintains input order
+
