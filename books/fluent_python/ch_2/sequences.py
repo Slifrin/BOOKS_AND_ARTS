@@ -35,6 +35,7 @@ def cool_bisect():
     demo(bisect.bisect_left)
 
 def fun_with_memoryview():
+    print(fun_with_memoryview.__name__)
     numbers = array.array('h', [-2, -1, 0, 1, 2]) # 'h' means short signed integers
     memv = memoryview(numbers)
     print(len(memv))
