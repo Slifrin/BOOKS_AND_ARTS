@@ -4,11 +4,9 @@
 '''
 
 
-
 def process_data_1(data, encoding="ascii"):
     print(type(data), id(data), data)
     print(type(encoding), id(encoding), encoding)
-
 
 
 def process_data_2(data, *, encoding="ascii"):
@@ -21,6 +19,7 @@ def process_data_2(data, *, encoding="ascii"):
     print(type(data), id(data), data)
     print(type(encoding), id(encoding), encoding)
 
+
 def process_data_3(data, /, encoding="ascii"):
     '''
         positional parameters only -> introduced in PEP 570
@@ -30,6 +29,7 @@ def process_data_3(data, /, encoding="ascii"):
     '''
     print(type(data), id(data), data)
     print(type(encoding), id(encoding), encoding)
+
 
 def process_data_4(data, /, *, encoding="ascii"):
     '''
@@ -53,9 +53,7 @@ def main():
     # and data are flip-flopped.
     process_data_1(encoding="utf-8", data=b"input")
 
-
     ##############################################################
-
 
     # The way you want users to use the function:
     process_data_2(b"input")
@@ -68,10 +66,8 @@ def main():
     process_data_2(data=b"input")
     process_data_2(data=b"input", encoding="utf-8")
     process_data_2(encoding="utf-8", data=b"input")
-    
 
     ##############################################################
-
 
     # The way you want users to use the function:
     process_data_3(b"input")
@@ -80,9 +76,7 @@ def main():
     # Raises a TypeError:
     # process_data(b"input", "utf-8") # nice
 
-
     ##############################################################
-
 
     # The way you want users to use the function:
     process_data_4(b"input")
@@ -93,6 +87,7 @@ def main():
     # process_data_4(data=b"input") # nice
     # process_data_4(data=b"input", encoding="utf-8") # nice
     # process_data_4(encoding="utf-8", data=b"input") # nice
+
 
 if __name__ == '__main__':
     main()

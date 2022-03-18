@@ -19,6 +19,7 @@ filename = options.filename
 mode = 'ab' if options.append else 'wb'
 
 with open(filename, mode) as script:
+
     def read(fd):
         data = os.read(fd, 1024)
         script.write(data)
