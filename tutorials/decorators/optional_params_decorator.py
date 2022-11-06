@@ -18,7 +18,7 @@ def slow_down(_func=None, *, rate=1):
         return wrapper_slow_down
 
     # if there is no function it means that decorator is parametriezed due to the fact that
-    # calling function is inplicite (syntactic sugra :) and no function is passed 
+    # calling function is inplicite (syntactic sugar :) and no function is passed 
     # in other case decorator "skips" one step and returns new decorated function
     if _func is None:
         print("Params")
