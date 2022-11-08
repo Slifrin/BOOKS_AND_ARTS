@@ -54,6 +54,16 @@ def descriptors_hiden_in_plain_sight():
 
     # 3 classmethod, staticmethod
 
+    # 4 Slots whatch about this 
+
+    # 5 __dict__ :)
+
+    # 6 SQLAlchemy
+
+    # 7 Field Validation
+
+    # 8 super lookaps
+
 
 def main() -> None:
     print(f'Hello main from : {__file__}')
