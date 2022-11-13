@@ -1,5 +1,4 @@
 
-
 class Student:
     def __init__(self, name: str):
         self.name = name
@@ -23,7 +22,7 @@ def GetMultipleStudents():
     for name in ['Bob', 'John', 'Tom']:
         ret_val.append(GetStudent(name).get_my_name())
     return ret_val
-        
+
 
 def main() -> None:
     print(f'Hello main from : {__file__}')
