@@ -51,10 +51,35 @@
         Internet: Downloading and uploading files, getting a webpage, querying RSS, etc.
         Database: Select, update, delete, etc. SQL queries.
         Email: Send mail, receive mail, query inbox, etc.
+
+    Thread Reentrant Lock
+        it can be acquired more than once by !!!SAME!!! but eache time it needs to release it
+    
+    Thread Semaphore:
+        A semaphore is a concurrency primitive that allows a limit on the number of threads
+        that can acquire a lock protecting a critical section.
+    A semaphore provides a useful concurrency tool for limiting the number of threads
+    that can access a resource concurrently. Some examples include:
+        Limiting concurrent socket connections to a server.
+        Limiting concurrent file operations on a hard drive.
+        Limiting concurrent calculations.
+
+    event is a thread-safe boolean flag.
+
+    Barrier
+    It allows multiple threads to wait on the same barrier object instance (e.g. at the same
+    point in code) until a predefined fixed number of threads arrive (e.g. the barrier is full),
+    after which all threads are then notified and released to continue their execution.
+    Internally, a barrier maintains a count of the number of threads waiting on the barrier
+    and a configured maximum number of parties (threads) that are expected. Once the expected
+    number of parties reaches the pre-defined maximum, all waiting threads are notified.
+
 """
 
-from threading import Thread, current_thread, main_thread, active_count, get_ident, get_native_id, enumerate, excepthook
+from threading import Thread, current_thread, main_thread, active_count, get_ident, get_native_id, enumerate, excepthook, Condition, Semaphore, Event, Timer, Barrier
+from threading import BrokenBarrierError
 from time import sleep
+from random import random
 
 def check_info_about_thread():
     thread = Thread(target=lambda: sleep(1))
@@ -74,9 +99,87 @@ def check_info_about_thread():
     thread.join()
 
 
+def check_condition():
+    def task(condition:Condition, work_list: list):
+        sleep(1)
+        work_list.append(33)
+        print(f"Task sends notification from {current_thread()}")
+        with condition:
+            condition.notify()
+
+    condition = Condition()
+    work_list = list()
+
+    print("Waiting for condition")
+    with condition:
+        worker = Thread(target=task, args=(condition, work_list))
+        worker.start()
+        condition.wait()
+    print(f"Got data {work_list}")
+
+def check_semaphore():
+    def task(semaphore: Semaphore, number: float):
+        with semaphore:
+            value = random()
+            sleep(value)
+            print(f"Thread number {number}, got value {value}")
+
+    semaphore = Semaphore(2)
+    for i in range(10):
+        worker = Thread(target=task, args=(semaphore, i))
+        worker.start()
+    sleep(3)
+
+def check_barrier():
+    def task(barrier, number):
+        value = random() * 10
+        sleep(value)
+        print(f"Thread number {number} done, got: {value}")
+        barrier.wait()
+        print(f"AFTER WAIT -- Thread number {number}")
+
+    def callback():
+        print("required numbre of threads finished".upper())
+
+    print("Hello Barriers")
+    barrier = Barrier(5 + 1, action=callback, timeout=15) # barrier waits for given number of tasks and it is required that all of them finish
+    threads: list[Thread] = []
+    for i in range(20):
+        worker = Thread(target=task, args=(barrier, i))
+        worker.start()
+        threads.append(worker)
+    print("Main thread waits for all results")
+    barrier.wait()
+    print("All threads have their result ")
+    for t in threads:
+        name = t.name
+        print("THREAD info ------> ", t.name, t.is_alive())
+
+        try:
+            t.join()
+        except BrokenBarrierError as e:
+            # Exception is in thread itself not in join execution 
+            print("HMMM some kind of trouble in thread {name}")
+            print(str(e))
+
+    for t in threads:
+        print(t.name, t.is_alive())
+    print("Hello after join")
+    # print("Need to abrt barrier")
+    # barrier.abort()
+    # print("AFTER ABORT")
+
 def main() -> None:
     print(f'Hello main from : {__file__}')
-    check_info_about_thread()
+    # check_info_about_thread()
+    # check_condition()
+    # check_semaphore()
+    try:
+        check_barrier()
+    except Exception as e:
+        print(f"\n\nGot EXCEPTION in outer scope\n")
+        print(str(e))
+        print("\n\n\n")
 
 if __name__ == '__main__':
     main()
