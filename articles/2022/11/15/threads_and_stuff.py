@@ -75,11 +75,14 @@
     number of parties reaches the pre-defined maximum, all waiting threads are notified.
 
 """
+import sys
 
 from threading import Thread, current_thread, main_thread, active_count, get_ident, get_native_id, enumerate, excepthook, Condition, Semaphore, Event, Timer, Barrier
 from threading import BrokenBarrierError
 from time import sleep
 from random import random
+
+
 
 def check_info_about_thread():
     thread = Thread(target=lambda: sleep(1))
@@ -174,12 +177,13 @@ def main() -> None:
     # check_info_about_thread()
     # check_condition()
     # check_semaphore()
-    try:
-        check_barrier()
-    except Exception as e:
-        print(f"\n\nGot EXCEPTION in outer scope\n")
-        print(str(e))
-        print("\n\n\n")
+    # try:
+    #     check_barrier()
+    # except Exception as e:
+    #     print(f"\n\nGot EXCEPTION in outer scope\n")
+    #     print(str(e))
+    #     print("\n\n\n")
+    print("SWITCH iINTERVAL", sys.getswitchinterval())
 
 if __name__ == '__main__':
     main()
