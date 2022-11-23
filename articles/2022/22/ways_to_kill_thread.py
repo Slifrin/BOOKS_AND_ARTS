@@ -73,14 +73,56 @@ def set_reset_stop_flag():
 
 
 def using_traces_to_kill_threads():
-    pass
+    
+    class ThreadWithTrace(threading.Thread):
+        def __init__(self, *args, **kwargs):
+            super().__init__(*args, **kwargs)
+            self.killed = False
+        
+        def start(self):
+            self.__run_backup = self.run
+            self.run = self.__run
+            super().start()
+        
+        def __run(self):
+            sys.settrace(self.globaltrace)
+            self.__run_backup()
+            self.run = self.__run_backup
 
+        def globaltrace(self, frame, event, arg):
+            if event == 'call':
+                return self.localtrace
+            else:
+                return None
+            
+        def localtrace(self, frame, event, arg):
+            if self.killed:
+                if event == 'line':
+                    raise SystemExit()
+            return self.localtrace
+        
+        def kill(self):
+            self.killed = True
 
+    def func():
+        while True:
+            print('Thread is running')
+            time.sleep(0.2)
+
+    t1 = ThreadWithTrace(target=func)
+    t1.start()
+    time.sleep(2)
+    t1.kill()
+    t1.join()
+    if not t1.is_alive():
+        print("thread killed")
+    print('After check')
 
 def main() -> None:
     print(f'Hello main from : {__file__}')
     # raising_exceptio_in_thread()
-    set_reset_stop_flag()
+    # set_reset_stop_flag()
+    using_traces_to_kill_threads()
 
 if __name__ == '__main__':
     main()
