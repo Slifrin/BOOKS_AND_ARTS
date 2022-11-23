@@ -13,13 +13,14 @@ import threading
 import ctypes
 import time
 import trace
+import multiprocessing
 
 def raising_exceptio_in_thread():
     class ThreadWithExceptio(threading.Thread):
         def __init__(self, name):
             super().__init__()
             self._name = name
-        
+
         def run(self):
             try:
                 while True:
@@ -27,7 +28,7 @@ def raising_exceptio_in_thread():
                     time.sleep(0.5)
             finally:
                 print("THIS IS THE END")
-        
+
         def get_id(self):
             if hasattr(self, '_thread_id'):
                 return self.ident
@@ -61,7 +62,7 @@ def set_reset_stop_flag():
             print('thread running')
             time.sleep(0.1)
             if stop(): # It is nice to call passed function
-                    break
+                break
 
     stop_threads = False
     t1 = threading.Thread(target = run, args =(lambda : stop_threads, ))
@@ -73,17 +74,17 @@ def set_reset_stop_flag():
 
 
 def using_traces_to_kill_threads():
-    
+
     class ThreadWithTrace(threading.Thread):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
             self.killed = False
-        
+
         def start(self):
             self.__run_backup = self.run
             self.run = self.__run
             super().start()
-        
+
         def __run(self):
             sys.settrace(self.globaltrace)
             self.__run_backup()
@@ -94,13 +95,13 @@ def using_traces_to_kill_threads():
                 return self.localtrace
             else:
                 return None
-            
+
         def localtrace(self, frame, event, arg):
             if self.killed:
                 if event == 'line':
                     raise SystemExit()
             return self.localtrace
-        
+
         def kill(self):
             self.killed = True
 
@@ -118,11 +119,61 @@ def using_traces_to_kill_threads():
         print("thread killed")
     print('After check')
 
+def using_multiprocessing_to_kill_threads():
+    def example_with_threads():
+        def func(number):
+            for i in range(1, 10):
+                time.sleep(0.01)
+                print(f"Thread {number} : prints {i * number}")
+        
+        for i in range(1, 4):
+            thread = threading.Thread(target=func, args=(i,))
+            thread.start()
+
+    def example_with_processes():
+        """It looks like function can't be in local scope to be passed to process"""
+        def func(number):
+            for i in range(1, 10):
+                time.sleep(0.01)
+                print(f"Process {number} : prints {i * number}")
+
+        processes = []
+        for i in range(1, 4):
+            process = multiprocessing.Process(target=func, args=(i, ))
+            process.start()
+            processes.append(process)
+
+        for proc in processes:
+            proc.join()
+
+    # example_with_threads()
+    # example_with_processes()
+
+def daemon_threads_are_termineated_upon_exit():
+    """
+        the resources held by these daemon threads, such as open
+        files, database transactions, etc. may not be released properly.
+    """
+    def func():
+        try:
+            while True:
+                print("Hello from thread")
+                time.sleep(0.4)
+        finally:
+            print("Maybe you can see me")
+    
+    t1 = threading.Thread(target=func, daemon=True)
+    t1.start()
+    time.sleep(1.5)
+    sys.exit()
+
 def main() -> None:
     print(f'Hello main from : {__file__}')
     # raising_exceptio_in_thread()
     # set_reset_stop_flag()
-    using_traces_to_kill_threads()
+    # using_traces_to_kill_threads()
+    # using_multiprocessing_to_kill_threads() # it doesn't work
+    daemon_threads_are_termineated_upon_exit()
 
 if __name__ == '__main__':
     main()
