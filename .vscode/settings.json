@@ -4,4 +4,8 @@
         "": true,
         "**/.git": false
     },
+    "files.associations": {
+        "iostream": "cpp",
+        "ios": "cpp"
+    },
 }
