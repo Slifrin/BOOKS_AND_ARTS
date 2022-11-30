@@ -160,3 +160,5 @@ cython_debug/
 .db
 
 db/
+
+data.txt
