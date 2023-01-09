@@ -57,14 +57,47 @@ def common_substrings(world_a:str, world_b:str):
                 cell[r][c] = 0
     print(f"{world_a=}    {world_b=}")
     show_table(cell)
-    
+
+
+def check_substring():
+    common_substrings("fish", "fishh")
+    common_substrings("fish", "hish")
+    common_substrings("blaaaabla", "blablaaaabla")
+
+
+def longest_common_subsecuence(world_a:str, world_b:str):
+    """
+    """
+    cell = [[0] * len(world_b) for _ in range(len(world_a))]
+
+    for r in range(len(world_a)):
+        for c in range(len(world_b)):
+            if world_a[r] == world_b[c]:
+                old_valu = 0
+                if r > 0 and c > 0:
+                    old_valu = cell[r - 1][c -  1]
+                cell[r][c] = old_valu + 1
+            else:
+                old_a = 0
+                if r > 0:
+                    old_a = cell[r-1][c]
+                old_b = 0
+                if c > 0:
+                    old_b = cell[r][c-1]
+                cell[r][c] = max(old_a, old_b)
+    print(f"{world_a=}    {world_b=}")
+    show_table(cell)
+
+
+def subsecuence():
+    longest_common_subsecuence("fort", "fosh")
+    longest_common_subsecuence("fish", "fosh")
+
 
 
 def main() -> None:
     print(f'Hello main from : {__file__}')
-    common_substrings("fish", "fishh")
-    common_substrings("fish", "hish")
-    common_substrings("blaaaabla", "blablaaaabla")
+    subsecuence()
 
 if __name__ == '__main__':
     main()
