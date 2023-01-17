@@ -162,3 +162,5 @@ cython_debug/
 db/
 
 data.txt
+
+.zip
