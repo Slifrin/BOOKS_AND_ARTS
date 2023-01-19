@@ -8,4 +8,7 @@
         "iostream": "cpp",
         "ios": "cpp"
     },
+    "python.analysis.extraPaths": [
+        "."
+    ],
 }
