@@ -1,6 +1,6 @@
 from dataclasses import dataclass
+from typing import Callable
 
-from game import factory
 
 @dataclass
 class Bard:
@@ -9,5 +9,5 @@ class Bard:
     def make_a_noise(self) -> None:
         print(f"My name is {self.name}, Lalalalalalla. Playing {self.instrument}")
 
-def initialize() -> None:
-    factory.register("bard", Bard)
+def initialize(register_func: Callable) -> None:
+    register_func("bard", Bard)
