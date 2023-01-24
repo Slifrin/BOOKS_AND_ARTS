@@ -3,41 +3,26 @@ from django.http import HttpRequest, HttpResponse, Http404, HttpResponseRedirect
 from django.template import loader
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.views import generic
 
 from polls.models import Question, Choice
 
+class IndexView(generic.ListView):
+    template_name = 'polls/index.html'
+    context_object_name = ''
 
-def index(request: HttpRequest) -> HttpResponse:
-    latest_question_list = Question.objects.order_by("-pub_date")[:5]
-
-    template = loader.get_template("polls/index.html")
-    context = {
-        "latest_question_list": latest_question_list,
-    }
-    return HttpResponse(template.render(context, request))
+    def get_queryset(self):
+        return Question.objects.order_by('-pub_date')[:5]
 
 
-def index2(request: HttpRequest):
-    latest_question_list = Question.objects.order_by("-pub_date")[:5]
-    context = {"latest_question_list": latest_question_list}
-    return render(request, 'polls/index.html', context)
+class DetailView(generic.DeleteView):
+    model = Question
+    template_name = 'polls/detail.html'
 
 
-def detail(request: HttpRequest, question_id: int) -> HttpResponse:
-    try:
-        question = Question.objects.get(pk=question_id)
-    except Question.DoesNotExist as e:
-        raise Http404(f"Question with id {question_id} does not exist.")
-    return render(request, 'polls/detail.html', {'question': question})
-
-def detail_alternative(request: HttpRequest, question_id: int) -> HttpResponse:
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/detail.html', {'question': question})
-
-
-def results(request: HttpRequest, question_id: int) -> HttpResponse:
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/results.html', {'question': question})
+class ResultsView(generic.DeleteView):
+    model = Question
+    template_name = 'polls/results.html'
 
 
 def vote(request: HttpRequest, question_id):
