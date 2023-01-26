@@ -166,3 +166,5 @@ data.txt
 .zip
 
 secrets.json
+
+.env
