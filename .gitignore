@@ -164,3 +164,5 @@ db/
 data.txt
 
 .zip
+
+secrets.json
