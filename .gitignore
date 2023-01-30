@@ -158,6 +158,7 @@ cython_debug/
 
 .bin
 .db
+*.db
 
 db/
 
