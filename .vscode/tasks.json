@@ -41,7 +41,7 @@
         {
             "type": "shell",
             "label": "Run python file in correct env",
-            "command": "${fileDirname}/.venv/bin/python3",
+            "command": "${workspaceFolder}/.env_learning/bin/python3",
             "args": [
                 "${fileBasename}"
             ],
