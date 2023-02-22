@@ -6,7 +6,13 @@
     },
     "files.associations": {
         "iostream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "__availability": "cpp",
+        "fstream": "cpp",
+        "locale": "cpp",
+        "ostream": "cpp",
+        "string": "cpp"
     },
     "python.analysis.extraPaths": [
         "."
