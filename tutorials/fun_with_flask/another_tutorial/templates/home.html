@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Hello</title>
+    <style>
+        #banner {
+            height: 400px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    {% include 'nav.html' %}
+
+    <!-- <img src="https://i.kym-cdn.com/photos/images/facebook/001/318/553/497.jpg" alt="The risk I took was calculated."> -->
+    <img id="banner" class="img-fluid"
+        src="https://images.unsplash.com/photo-1528382324962-85858f70f39b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGNhcmVlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+        alt="Motivation quote" , height="320">
+
+    <h2 class="text-center mt-2 mb-2">About our company</h2>
+
+    <div class="container">
+        <h1 class="text-center mt-2 mb-2">"Hello there"</h1>
+
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Libero justo laoreet sit amet cursus sit amet dictum. Morbi enim nunc
+                    faucibus a pellentesque sit amet. Ac tincidunt vitae semper quis lectus. Egestas sed tempus urna et
+                    pharetra
+                    pharetra massa massa ultricies. Proin libero nunc consequat interdum varius sit amet. Aliquam sem
+                    fringilla
+                    ut morbi tincidunt. Quis varius quam quisque id diam vel. Sit amet porttitor eget dolor morbi non
+                    arcu
+                    risus. Amet risus nullam eget felis eget nunc lobortis. Tellus rutrum tellus pellentesque eu
+                    tincidunt
+                    tortor aliquam nulla. Donec massa sapien faucibus et molestie ac feugiat. Suspendisse in est ante in
+                    nibh
+                    mauris cursus mattis. Massa tincidunt dui ut ornare. Curabitur gravida arcu ac tortor dignissim
+                    convallis
+                    aenean et tortor. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed.
+                    Pellentesque
+                    habitant morbi tristique senectus et netus et malesuada fames. Turpis egestas maecenas pharetra
+                    convallis.
+                    Donec ac odio tempor orci. Tincidunt vitae semper quis lectus.</p>
+            </div>
+            <div class="d-none d-md-block col-md-6 ">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya2luZyUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
+                    alt="Working people" style="height: 320px; border-radius: 4px; margin-bottom: 16px;"
+                    class="rounded mx-auto d-block">
+            </div>
+        </div>
+        <h2 class="text-center mt-2 mb-2">Open positions</h2>
+        <p>
+            {% for job in jobs%}
+            {% include 'jobitem.html' %}
+            {% endfor %}
+        </p>
+        <div>
+            <div class="d-grid gap-2 col-6 mx-auto text-center">
+                <!-- <button class="btn btn-primary btn-lg ">Contact Us</button> -->
+                <a href="mailto:career@blabla.xyz?subject=Question%20about%20Job%20Openings&body=My%20name%3A%20%3Cput%20your%20name%20here%3E%0D%0A%0D%0AMy%20question%3A%20%3CYour%20question%3E "
+                    class="btn btn-primary btn-lg ">Contact Us</a>
+            </div>
+        </div>
+        {% include 'footer.html' %}
+
+    </div>
+</body>
+
+</html>

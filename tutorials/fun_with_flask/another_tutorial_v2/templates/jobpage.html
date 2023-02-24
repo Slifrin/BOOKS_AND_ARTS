@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{job['title']}} - DESCRIPTION</title>
+    {% include "common_bootsrap.html" %}
+</head>
+
+<body>
+    {% include 'nav.html' %}
+    {% include 'banner.html' %}
+
+    <div class="container">
+        <h3>Title</h3>
+        <p>{{job['title']}}</p>
+        <h3>Location</h3>
+        <p>{{job['location']}}</p>
+        <h3>Salary</h3>
+        <p>{{job.salary}} {{job.currency}}</p>
+        <h3>Eesponsibilities</h3>
+        <div>
+            <p>
+                <ul>
+                    {% for resp in job.responsibilities.split('\n') %}
+                        <li>{{ resp }}</li>
+                    {% endfor %}
+                </ul>
+            </p>
+        </div>
+        <h3>Requirements</h3>
+        <div>
+            <p>
+                <ol>
+                    {% for req in job.requirements.split('\n') %}
+                        <li>{{ req }}</li>
+                    {% endfor %}
+                </ol>
+            </p>
+        </div>
+        {% include 'application_form.html' %}
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>

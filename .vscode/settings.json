@@ -12,9 +12,14 @@
         "fstream": "cpp",
         "locale": "cpp",
         "ostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "istream": "cpp",
+        "sstream": "cpp"
     },
     "python.analysis.extraPaths": [
         "."
     ],
+    "[dockercompose]": {
+        "editor.tabSize": 2
+    },
 }

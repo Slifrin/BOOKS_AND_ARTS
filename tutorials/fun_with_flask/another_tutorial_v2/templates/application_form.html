@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% include 'nav.html' %}
+    {% include 'banner.html' %}
+
+    <div class="container">
+
+
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html> -->
+
+<h4>Application Form</h4>
+<form action="/job/{{job['id']}}/apply" method="post">
+    <div class="mb-2">
+        <label>Full Name</label><br>
+        <input type="text" name="full_name" placeholder="Johny Bravo">
+    </div>
+    <div class="mb-2">
+        <label>Email</label><br>
+        <input type="email" name="email" placeholder="johny@bravo.xyz">
+    </div>
+    <div class="mb-2">
+        <label>LinkedIn URL</label><br>
+        <input type="text" name="linkedin_url" placeholder="https://linkedin.com/in/johnybravo">
+    </div>
+    <div class="mb-2">
+        <label>Education</label><br>
+        <textarea name="education" cols="60" rows="15"></textarea>
+    </div>
+    <input type="submit">
+</form>
