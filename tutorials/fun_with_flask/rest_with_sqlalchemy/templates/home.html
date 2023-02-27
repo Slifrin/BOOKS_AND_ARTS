@@ -8,7 +8,12 @@
 </head>
 <body>
     <h1>
-        Hello there!
+        Hello People!
     </h1>
+    <ul>
+        {% for person in people %}
+        <li>{{ person.fname }} {{ person.lname }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
