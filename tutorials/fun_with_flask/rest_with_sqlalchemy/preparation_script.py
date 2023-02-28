@@ -11,7 +11,7 @@ GET_TABLE_NAMES = "SELECT name FROM sqlite_master WHERE type = 'table';"
 def creation(conn: sqlite3.Connection):
     columns = [
         "id INTEGER PRIMARY KEY",
-        "lname VARCHAR UNIQUE",
+        "lname VARCHAR",
         "fname VARCHAR",
         "timestamp DATETIME",
     ]
