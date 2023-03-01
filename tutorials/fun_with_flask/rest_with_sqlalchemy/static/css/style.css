@@ -1,5 +1,3 @@
-
-
 :root {
     --bg-color: white;
     --main-color: coral;
@@ -25,7 +23,7 @@ h2 {
 
 hr {
     border: 1px solid var(--main-color);
-    padding-bottom: none;
+    border-bottom: none;
 }
 
 label {
@@ -73,6 +71,7 @@ button:hover {
 .button {
     background-color: transparent;
     color: var(--main-color);
+    cursor: pointer;
 }
 
 .button:hover {
