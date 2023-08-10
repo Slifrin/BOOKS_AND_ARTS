@@ -1,5 +1,5 @@
 {
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "none",
     "files.exclude": {
         "": true,
         "**/.git": false
@@ -21,5 +21,8 @@
     ],
     "[dockercompose]": {
         "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
 }
