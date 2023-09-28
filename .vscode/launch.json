@@ -4,12 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "internalConsole"
         },
         {
             "name": "clang - Build and debug active file",
@@ -23,6 +24,19 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "C/C++: clang build active file"
+        },
+        {
+            "name": "scrapy - spider",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy.cmdline",
+            "justMyCode": false,
+            "cwd": "${fileDirname}/../../",
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+            },
+            "console": "internalConsole",
+            "args": ["crawl",  "b4sport"]
         }
     ]
 }

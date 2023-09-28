@@ -4,7 +4,7 @@ from collections import deque
 
 cols = 25  # 25
 rows = 15  # 15
-TILE = 60
+TILE = 30
 
 
 def get_rect(x, y):
@@ -17,7 +17,7 @@ def get_next_nodes(x, y):
         if 0 <= x < cols and 0 <= y < rows and not grid[y][x]
         else False
     )
-    ways = [-1, 0], [0, -1], [1, 0], [0, 1], [-1, 1], [1, 1], [-1, -1], [1, -1]
+    ways = [-1, 0], [0, -1], [1, 0], [0, 1] #, [-1, 1], [1, 1], [-1, -1], [1, -1]
     return [(x + dx, y + dy) for dx, dy in ways if check_next_node(x + dx, y + dy)]
 
 

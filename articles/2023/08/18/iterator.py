@@ -2,7 +2,7 @@
 class Node:
     def __init__(self, val) -> None:
         self.val = val
-        self.next: "Node" | None = None # not a best solution but there is no import :)
+        self.next: "Node" | None = None # not a best solution but there is no important :)
 
 
 class LinkedList:

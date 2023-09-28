@@ -4,7 +4,7 @@ from collections import deque
 
 cols = 25  # 25
 rows = 15  # 15
-TILE = 60
+TILE = 30
 
 
 def get_rect(x, y):
