@@ -1,0 +1,1589 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "errorCode": 0,
+    "resultList": [
+        {
+            "caseType": "Criminal",
+            "securityLevel": 0,
+            "caseInfo": [
+                {
+                    "key": "Case Number",
+                    "value": "LAX1AR02098-01",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type Code",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Case ID",
+                    "value": "16531027",
+                    "toShow": false
+                },
+                {
+                    "key": "Defendant ID",
+                    "value": "01",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Date",
+                    "value": "11/30/2021",
+                    "toShow": true
+                },
+                {
+                    "key": "Arrest Date",
+                    "value": "11/28/2021",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Courthouse",
+                    "value": "Airport Courthouse",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type",
+                    "value": "Criminal",
+                    "toShow": false
+                },
+                {
+                    "key": "Case UType ID",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Criminal Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Court Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Case Title",
+                    "value": "The People of the State of California vs. MUNOZ, LAURA CHRISTINE",
+                    "toShow": true
+                },
+                {
+                    "key": "Balance",
+                    "value": "$0.00",
+                    "toShow": true
+                }
+            ],
+            "events": [
+                {
+                    "eventType": "Financial Balance Resolved",
+                    "eventTypeID": "120604",
+                    "eventTypeDescription": "Financial Balance Resolved",
+                    "eventDate": "2023-11-13T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-09-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-07-18T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-04-18T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-03-01T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "ADR Transmission",
+                    "eventTypeID": "83477",
+                    "eventTypeDescription": "ADR Transmission",
+                    "eventDate": "2022-12-02T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventTypeID": "88087",
+                    "eventTypeDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Privilege Against Self-Incrimination",
+                    "eventTypeID": "81369",
+                    "eventTypeDescription": "Waived Privilege Against Self-Incrimination",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventTypeID": "81370",
+                    "eventTypeDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Trial by Court or Jury",
+                    "eventTypeID": "81372",
+                    "eventTypeDescription": "Waived Right to Trial by Court or Jury",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-10-27T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-09-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-09-27T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-08-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-07-26T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-06-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-04-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Plea of Not Guilty to Complaint",
+                    "eventTypeID": "102883",
+                    "eventTypeDescription": "Plea of Not Guilty to Complaint",
+                    "eventDate": "2022-04-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Arraignment Held",
+                    "eventTypeID": "81316",
+                    "eventTypeDescription": "Arraignment Held",
+                    "eventDate": "2022-04-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Docket Line Entry",
+                    "eventTypeID": "82992",
+                    "eventTypeDescription": "Docket Line Entry",
+                    "eventDate": "2022-03-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "NOTICE OF FORFEITURE MAILED TO SURETY AND AGENCY ON 03/30/22. 185TH DAY IS 10/01/22. BOND# FCS252337632. ************************** D. HUNTER ***************************",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-03-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Bond Forfeited",
+                    "eventTypeID": "92911",
+                    "eventTypeDescription": "Bond Forfeited",
+                    "eventDate": "2022-03-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2021-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Complaint Filed",
+                    "eventTypeID": "81291",
+                    "eventTypeDescription": "Complaint Filed",
+                    "eventDate": "2021-11-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Defendant Arrested and Booked",
+                    "eventTypeID": "95659",
+                    "eventTypeDescription": "Defendant Arrested and Booked",
+                    "eventDate": "2021-11-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                }
+            ],
+            "tabs": [
+                {
+                    "key": "CASE_INFORMATION",
+                    "value": "Case Information",
+                    "toShow": true
+                },
+                {
+                    "key": "PARTIES",
+                    "value": "Parties",
+                    "toShow": true
+                },
+                {
+                    "key": "HEARINGS",
+                    "value": "Proceedings",
+                    "toShow": true
+                },
+                {
+                    "key": "ROA",
+                    "value": "Register of Actions",
+                    "toShow": true
+                },
+                {
+                    "key": "BONDS",
+                    "value": "Bonds",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_CHARGES",
+                    "value": "Charges",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_SENTENCING",
+                    "value": "Sentencing",
+                    "toShow": true
+                }
+            ],
+            "parties": [
+                {
+                    "partyName": "The People of the State of California",
+                    "partyTypeDescription": "Plaintiff",
+                    "remarks": "",
+                    "partyID": "1",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Plaintiff",
+                            "partyType": "Plaintiff",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Alexandra Beckett Cacciatore",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "148644",
+                    "barNumber": "285393",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Juan Andre Castellanos",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18863409",
+                    "barNumber": "319038",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Do Hyun Park",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18859476",
+                    "barNumber": "324758",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Carolyn Nivia Phillips",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "17191",
+                    "barNumber": "110194",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Zachary Harris Lodmer",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "119350",
+                    "barNumber": "253064",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "LAURA CHRISTINE MUNOZ",
+                    "partyTypeDescription": "Defendant",
+                    "remarks": "",
+                    "partyID": "25676526",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Defendant",
+                            "partyType": "Defendant",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Steve David Sitkoff",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for LAURA CHRISTINE MUNOZ</li>\r\n<li>Private Counsel</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "16298",
+                    "barNumber": "108634",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for LAURA CHRISTINE MUNOZ",
+                            "partyType": "Attorney",
+                            "associatedPerson": "LAURA CHRISTINE MUNOZ",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Private Counsel",
+                            "partyType": "Private Counsel",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                }
+            ],
+            "relatedCases": [],
+            "historicalDocuments": [],
+            "pastProceedings": [
+                {
+                    "proceedingDate": "2023-09-25T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Proof of Completion/Fine",
+                    "proceedingTypeID": "83187",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": null,
+                    "hearingComment": null,
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-09-25T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Advancement",
+                    "proceedingTypeID": "83171",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Hammond, Melissa R.",
+                    "hearingComment": null,
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-07-18T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Progress Report",
+                    "proceedingTypeID": "93016",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Hammond, Melissa R.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-04-18T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Restitution Hearing",
+                    "proceedingTypeID": "83008",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-03-01T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Restitution Hearing",
+                    "proceedingTypeID": "83008",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-11-30T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-10-27T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-09-30T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Judicial Action",
+                    "proceedingTypeID": "83038",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": null,
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-09-27T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-08-25T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-07-26T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-06-28T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "Day 00 of 20",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-04-28T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Bench Warrant Hearing",
+                    "proceedingTypeID": "92963",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Scaduto, Lynn H.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-03-30T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - LAX-BND",
+                    "proceedingType": "Docket Line Entry",
+                    "proceedingTypeID": "105905",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": null,
+                    "hearingComment": null,
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-03-28T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Arraignment",
+                    "proceedingTypeID": "3310",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Kim, Lana S.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2021-11-30T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 90",
+                    "proceedingType": "Arraignment",
+                    "proceedingTypeID": "3310",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Scaduto, Lynn H.",
+                    "hearingComment": "",
+                    "document": null
+                }
+            ],
+            "futureProceedings": [
+                {
+                    "proceedingDate": "2023-11-30T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Payment of Fines and Fees",
+                    "proceedingTypeID": "83009",
+                    "proceedingResult": null,
+                    "judicialOfficer": null,
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-11-20T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Proof of Completion",
+                    "proceedingTypeID": "111227",
+                    "proceedingResult": null,
+                    "judicialOfficer": null,
+                    "hearingComment": "",
+                    "document": null
+                }
+            ],
+            "registerOfActions": [
+                {
+                    "actionDate": "2023-11-13T00:00:00",
+                    "actionDescription": "Financial Balance Resolved",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-09-25T08:30:00",
+                    "actionDescription": "Proof of Completion/Fine - Proceedings Heard",
+                    "additionalInformation": "(Airport Clerk's Office)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-09-25T08:30:00",
+                    "actionDescription": "Advancement - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-09-25T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-07-18T08:30:00",
+                    "actionDescription": "Progress Report - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-07-18T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-04-18T08:30:00",
+                    "actionDescription": "Restitution Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-04-18T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-03-01T08:30:00",
+                    "actionDescription": "Restitution Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-03-01T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-02T00:00:00",
+                    "actionDescription": "ADR Transmission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Waived Privilege Against Self-Incrimination",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-11-30T00:00:00",
+                    "actionDescription": "Waived Right to Trial by Court or Jury",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-10-27T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-10-27T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-09-30T08:30:00",
+                    "actionDescription": "Judicial Action - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-09-30T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-09-27T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-09-27T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-08-25T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-08-25T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-07-26T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-07-26T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-28T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90) Day 00 of 20",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-28T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-04-28T08:30:00",
+                    "actionDescription": "Bench Warrant Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-04-28T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-04-28T00:00:00",
+                    "actionDescription": "Plea of Not Guilty to Complaint",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-04-28T00:00:00",
+                    "actionDescription": "Arraignment Held",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-03-30T08:30:00",
+                    "actionDescription": "Docket Line Entry - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - LAX-BND)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-03-30T00:00:00",
+                    "actionDescription": "Docket Line Entry",
+                    "additionalInformation": "NOTICE OF FORFEITURE MAILED TO SURETY AND AGENCY ON 03/30/22. 185TH DAY IS 10/01/22. BOND# FCS252337632. ************************** D. HUNTER ***************************",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-03-28T08:30:00",
+                    "actionDescription": "Arraignment - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-03-28T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-03-28T00:00:00",
+                    "actionDescription": "Bond Forfeited",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-11-30T08:30:00",
+                    "actionDescription": "Arraignment - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 90)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-11-30T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-11-30T00:00:00",
+                    "actionDescription": "Complaint Filed",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-11-28T00:00:00",
+                    "actionDescription": "Defendant Arrested and Booked",
+                    "additionalInformation": "",
+                    "document": null
+                }
+            ],
+            "otherCriminalInformation": {
+                "defendant": null,
+                "financialBalance": null,
+                "financialCollectionStatuses": null,
+                "warrants": null,
+                "interimConditions": [
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "orderDate": "2022-11-30T00:00:00",
+                        "toDisplayString": "<ul><li>(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE.</li><li>(578TCIS) 578  - DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT.</li><li>(579TCIS) 579  - OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE.</li><li>(904TCIS) 904  - DEFENDANT ORDERED TO STAY 100 YARDS AWAY FROM STEFAN S., DEFENDANT MAY HAVE PEACEFUL CONTACT ONLY WITH SAFE EXCHANGE OF CHILD IN ACCORDANCE WITH FAMILY LAW CASE NUMBER 21STPT02775.</li><li>(913TCIS) 913  - DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S.</li></ul>"
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "orderDate": "2022-08-25T00:00:00",
+                        "toDisplayString": "<ul><li>(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE.</li><li>(578TCIS) 578  - DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT.</li><li>(579TCIS) 579  - OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE.</li><li>(904TCIS) 904  - DEFENDANT ORDERED TO STAY 100 YARDS AWAY FROM STEFAN S., DEFENDANT MAY HAVE PEACEFUL CONTACT ONLY WITH SAFE EXCHANGE OF CHILD IN ACCORDANCE WITH FAMILY LAW CASE NUMBER 21STPT02775.</li><li>(913TCIS) 913  - DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S.</li></ul>"
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "orderDate": "2022-04-28T00:00:00",
+                        "toDisplayString": "<ul><li>(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE.</li><li>(578TCIS) 578  - DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT.</li><li>(579TCIS) 579  - OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE.</li><li>(904TCIS) 904  - DEFENDANT ORDERED TO STAY 100 YARDS AWAY FROM STEFAN S., DEFENDANT MAY HAVE PEACEFUL CONTACT ONLY WITH SAFE EXCHANGE OF CHILD IN ACCORDANCE WITH FAMILY LAW CASE NUMBER 21STPT02775.</li><li>(913TCIS) 913  - DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S.</li></ul>"
+                    }
+                ],
+                "charges": [
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX1AR02098-01",
+                        "defendantID": "",
+                        "countNumber": "001",
+                        "chargeCode": "PC594(a)",
+                        "statuteName": "PC594(a)-M Vandalism",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "11/30/2022 - Dismissed 1385 PC"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "11/30/2022 - Dismissed 1385 PC",
+                        "chargeDispositionDate": "2022-11-30T00:00:00",
+                        "chargeDispositionDateString": "11/30/2022",
+                        "chargeDisposition": "Dismissed 1385 PC",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIA",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX1AR02098-01",
+                        "defendantID": "",
+                        "countNumber": "002",
+                        "chargeCode": "PC242-243(e)(1)",
+                        "statuteName": "PC242-243(e)(1)-M Domestic Battery",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "11/30/2022 - Dismissed 1385 PC"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "11/30/2022 - Dismissed 1385 PC",
+                        "chargeDispositionDate": "2022-11-30T00:00:00",
+                        "chargeDispositionDateString": "11/30/2022",
+                        "chargeDisposition": "Dismissed 1385 PC",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIA",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX1AR02098-01",
+                        "defendantID": "",
+                        "countNumber": "003",
+                        "chargeCode": "PC415",
+                        "statuteName": "PC415-M Disturb The Peace",
+                        "statuteURL": "",
+                        "pleaHistory": [
+                            "11/30/2022: Pleads Nolo Contendere"
+                        ],
+                        "dispositions": [
+                            "11/30/2022 - Conviction After Plea"
+                        ],
+                        "pleaHistoryDisplay": "11/30/2022: Pleads Nolo Contendere",
+                        "lastDispositionDisplay": "11/30/2022 - Conviction After Plea",
+                        "chargeDispositionDate": "2022-11-30T00:00:00",
+                        "chargeDispositionDateString": "11/30/2022",
+                        "chargeDisposition": "Conviction After Plea",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "CON",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    }
+                ],
+                "bondSettings": [
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-09-25T00:00:00",
+                        "settingDateDisplay": "9/25/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-09-25T00:00:00",
+                        "settingDateDisplay": "9/25/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-07-18T00:00:00",
+                        "settingDateDisplay": "7/18/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-04-18T00:00:00",
+                        "settingDateDisplay": "4/18/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-11-30T00:00:00",
+                        "settingDateDisplay": "11/30/2022",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-10-27T00:00:00",
+                        "settingDateDisplay": "10/27/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-09-27T00:00:00",
+                        "settingDateDisplay": "9/27/2022",
+                        "settingType": "Remains on Own Recognizance",
+                        "description": "Remains on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-08-25T00:00:00",
+                        "settingDateDisplay": "8/25/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-07-26T00:00:00",
+                        "settingDateDisplay": "7/26/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-06-28T00:00:00",
+                        "settingDateDisplay": "6/28/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-04-28T00:00:00",
+                        "settingDateDisplay": "4/28/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "LAURA CHRISTINE MUNOZ",
+                        "settingGroupType": "By Warrant",
+                        "settingDate": "2022-03-28T00:00:00",
+                        "settingDateDisplay": "3/28/2022",
+                        "settingType": "Warrant Bail Set",
+                        "description": "Warrant Bail Set - $30,000.00",
+                        "bailAmount": 30000.0,
+                        "warrantID": "2989765"
+                    }
+                ],
+                "bonds": [
+                    {
+                        "defendantID": "25676526",
+                        "suretyID": "247564",
+                        "propertyBondID": "",
+                        "bondID": "439790",
+                        "bondNumber": "FCS252337632",
+                        "bondType": "Surety Bond",
+                        "bondAmount": 20000.0,
+                        "bondAmountDisplay": "$20,000.00",
+                        "courtDate": "2022-03-28T00:00:00",
+                        "courtDateDisplay": "3/28/2022",
+                        "bondCompanyName": "Bail Hotline Bail Bonds",
+                        "statuses": [],
+                        "statusDisplay": ""
+                    }
+                ],
+                "sentencing": [
+                    {
+                        "sentenceType": "Imposition of Sentence Suspended",
+                        "sentenceDate": "2022-11-30T00:00:00",
+                        "sentenceDateDisplay": "11/30/2022",
+                        "judicialOfficer": "Kim, Lana S.",
+                        "amendReason": "",
+                        "chargeNumber": "003",
+                        "chargeDescription": "PC415-M Disturb The Peace",
+                        "probation": [
+                            {
+                                "probationType": "Summary Probation",
+                                "duration": "36 months",
+                                "conditions": [
+                                    {
+                                        "conditionID": "14315522",
+                                        "conditionTypeCode": "048TCIS",
+                                        "conditionType": "048",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND MANNER TO BE DETERMINED AT A HEARING. . HARVEY WAIVER TAKEN."
+                                    },
+                                    {
+                                        "conditionID": "14315523",
+                                        "conditionTypeCode": "913TCIS",
+                                        "conditionType": "913",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "913 DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S."
+                                    },
+                                    {
+                                        "conditionID": "14315524",
+                                        "conditionTypeCode": "369TCIS",
+                                        "conditionType": "369",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "369; ENROLL WITHIN 30 DAYS AND SUCCESSFULLY COMPLETE A 52-WEEK       DOMESTIC VIOLENCE TREATMENT PROGRAM APPROVED BY THE PROBATION   DEPARTMENT. ATTEND ALL COUNSELLING SESSIONS, KEEP ALL PROGRAM   APPOINTMENTS AND PAY ALL PROGRAM FEES IN ACCORDANCE WITH YOUR   ABILITY TO PAY."
+                                    },
+                                    {
+                                        "conditionID": "14315525",
+                                        "conditionTypeCode": "579TCIS",
+                                        "conditionType": "579",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "579; OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE."
+                                    },
+                                    {
+                                        "conditionID": "14315526",
+                                        "conditionTypeCode": "578TCIS",
+                                        "conditionType": "578",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "578; DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT."
+                                    },
+                                    {
+                                        "conditionID": "14315527",
+                                        "conditionTypeCode": "810TCIS",
+                                        "conditionType": "810",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME."
+                                    },
+                                    {
+                                        "conditionID": "14315528",
+                                        "conditionTypeCode": "683TCIS",
+                                        "conditionType": "683",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "683; THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE."
+                                    },
+                                    {
+                                        "conditionID": "14315529",
+                                        "conditionTypeCode": "541TCIS",
+                                        "conditionType": "541",
+                                        "effectiveDateStart": "2022-11-30",
+                                        "effectiveDateStartObject": "2022-11-30T00:00:00",
+                                        "effectiveDateStartDisplay": "11/30/2022",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2022-11-30",
+                                            "statusDateObject": "2022-11-30T00:00:00",
+                                            "statusDateDisplay": "11/30/2022"
+                                        },
+                                        "comment": "THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT."
+                                    }
+                                ],
+                                "excludeTollingDays": true,
+                                "conditionsDisplay": "<ul><li>048 effective 11/30/2022: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND MANNER TO BE DETERMINED AT A HEARING. . HARVEY WAIVER TAKEN. (Active on 11/30/2022)</li><li>913 effective 11/30/2022: 913 DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S. (Active on 11/30/2022)</li><li>369 effective 11/30/2022: 369; ENROLL WITHIN 30 DAYS AND SUCCESSFULLY COMPLETE A 52-WEEK       DOMESTIC VIOLENCE TREATMENT PROGRAM APPROVED BY THE PROBATION   DEPARTMENT. ATTEND ALL COUNSELLING SESSIONS, KEEP ALL PROGRAM   APPOINTMENTS AND PAY ALL PROGRAM FEES IN ACCORDANCE WITH YOUR   ABILITY TO PAY. (Active on 11/30/2022)</li><li>579 effective 11/30/2022: 579; OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE. (Active on 11/30/2022)</li><li>578 effective 11/30/2022: 578; DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT. (Active on 11/30/2022)</li><li>810 effective 11/30/2022: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 11/30/2022)</li><li>683 effective 11/30/2022: 683; THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE. (Active on 11/30/2022)</li><li>541 effective 11/30/2022: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 11/30/2022)</li></ul>",
+                                "statuses": [
+                                    {
+                                        "probationStatusCollectionID": "12644227",
+                                        "probationStatusCode": "PREF",
+                                        "status": "In Effect",
+                                        "statusDate": "2022-11-30",
+                                        "statusDateObject": "2022-11-30T00:00:00",
+                                        "statusDateDisplay": "11/30/2022"
+                                    }
+                                ],
+                                "statusesDisplay": "11/30/2022: In Effect",
+                                "lastStatus": {
+                                    "probationStatusCollectionID": "12644227",
+                                    "probationStatusCode": "PREF",
+                                    "status": "In Effect",
+                                    "statusDate": "2022-11-30",
+                                    "statusDateObject": "2022-11-30T00:00:00",
+                                    "statusDateDisplay": "11/30/2022"
+                                },
+                                "probationDisplay": "Summary Probation<ul><li><b>Term</b>: 36 months</li><li><b>Status</b>: In Effect</li><li><b>Conditions: </b><ul><li>048 effective 11/30/2022: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND MANNER TO BE DETERMINED AT A HEARING. . HARVEY WAIVER TAKEN. (Active on 11/30/2022)</li><li>913 effective 11/30/2022: 913 DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S. (Active on 11/30/2022)</li><li>369 effective 11/30/2022: 369; ENROLL WITHIN 30 DAYS AND SUCCESSFULLY COMPLETE A 52-WEEK       DOMESTIC VIOLENCE TREATMENT PROGRAM APPROVED BY THE PROBATION   DEPARTMENT. ATTEND ALL COUNSELLING SESSIONS, KEEP ALL PROGRAM   APPOINTMENTS AND PAY ALL PROGRAM FEES IN ACCORDANCE WITH YOUR   ABILITY TO PAY. (Active on 11/30/2022)</li><li>579 effective 11/30/2022: 579; OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE. (Active on 11/30/2022)</li><li>578 effective 11/30/2022: 578; DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT. (Active on 11/30/2022)</li><li>810 effective 11/30/2022: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 11/30/2022)</li><li>683 effective 11/30/2022: 683; THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE. (Active on 11/30/2022)</li><li>541 effective 11/30/2022: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 11/30/2022)</li></ul></li></ul>"
+                            }
+                        ],
+                        "driversLicenseConditions": [],
+                        "programs": [],
+                        "confinements": [],
+                        "comments": [
+                            {
+                                "dispositionComponentInstanceID": "16162638",
+                                "comment": "Additional Assessment 1: DV $500.00 THE DEFENDANT IS ORDERED TO PERFORM 5 DAYS BEACH CLEAN-UP. IN ADDITION, THE DEFENDANT IS ORDERED TO PERFORM 50 HOURS COMMUNITY SERVICE AT  BABY TO BABY  A LICENSED NON-PROFIT ORGANIZATION. {**BEACH CLEAN-UP IS NOT THROUGH THE VOLUNTEER CENTER**} . THE MATTER IS CALENDARED FOR RESTITUTION HEARING SETTING AND PROGRESS REPORT IN DOMESTIC VIOLENCE COUNSELING, BEACH CLEAN-UP, AND COMMUNITY SERVICE ON MARCH 1, 2023 AT 8:30 A.M., IN DEPARTMENT W90. . DEFENDANT STIPULATE TO FAMILY CODE SECTION 6211 AND PENAL CODE SECTION 1203.097"
+                            }
+                        ],
+                        "commentsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Comments</div><ul><li>Additional Assessment 1: DV $500.00 THE DEFENDANT IS ORDERED TO PERFORM 5 DAYS BEACH CLEAN-UP. IN ADDITION, THE DEFENDANT IS ORDERED TO PERFORM 50 HOURS COMMUNITY SERVICE AT  BABY TO BABY  A LICENSED NON-PROFIT ORGANIZATION. {**BEACH CLEAN-UP IS NOT THROUGH THE VOLUNTEER CENTER**} . THE MATTER IS CALENDARED FOR RESTITUTION HEARING SETTING AND PROGRESS REPORT IN DOMESTIC VIOLENCE COUNSELING, BEACH CLEAN-UP, AND COMMUNITY SERVICE ON MARCH 1, 2023 AT 8:30 A.M., IN DEPARTMENT W90. . DEFENDANT STIPULATE TO FAMILY CODE SECTION 6211 AND PENAL CODE SECTION 1203.097</li></ul></div>",
+                        "probationDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Probation</div><div><ul><li>Summary Probation<ul><li><b>Term</b>: 36 months</li><li><b>Status</b>: In Effect</li><li><b>Conditions: </b><ul><li>048 effective 11/30/2022: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND MANNER TO BE DETERMINED AT A HEARING. . HARVEY WAIVER TAKEN. (Active on 11/30/2022)</li><li>913 effective 11/30/2022: 913 DO NOT USE OR THREATEN TO USE FORCE OR VIOLENCE ON ANY PERSON. DO NOT ANNOY, HARASS OR MOLEST ANY PERSON OR WITNESS INVOLVED IN THIS CASE, ESPECIALLY STEFAN S. (Active on 11/30/2022)</li><li>369 effective 11/30/2022: 369; ENROLL WITHIN 30 DAYS AND SUCCESSFULLY COMPLETE A 52-WEEK       DOMESTIC VIOLENCE TREATMENT PROGRAM APPROVED BY THE PROBATION   DEPARTMENT. ATTEND ALL COUNSELLING SESSIONS, KEEP ALL PROGRAM   APPOINTMENTS AND PAY ALL PROGRAM FEES IN ACCORDANCE WITH YOUR   ABILITY TO PAY. (Active on 11/30/2022)</li><li>579 effective 11/30/2022: 579; OBEY THE PROTECTIVE ORDER ISSUED IN THIS OR ANY OTHER CASE. (Active on 11/30/2022)</li><li>578 effective 11/30/2022: 578; DEFENDANT IS SERVED WITH A COPY OF THE PROTECTIVE ORDER IN OPEN COURT. (Active on 11/30/2022)</li><li>810 effective 11/30/2022: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 11/30/2022)</li><li>683 effective 11/30/2022: 683; THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE. (Active on 11/30/2022)</li><li>541 effective 11/30/2022: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 11/30/2022)</li></ul></li></ul></li></ul></div>\r\n</div>\r\n",
+                        "driversLicenseConditionsDisplay": "",
+                        "programsDisplay": "",
+                        "confinementsDisplay": ""
+                    }
+                ],
+                "criminalRegister": ""
+            },
+            "documents": [],
+            "crossReferences": [
+                {
+                    "caseID": "16531027",
+                    "number": "006283252",
+                    "typeID": "BK2",
+                    "typeDescription": "Current Booking Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "102098",
+                    "typeID": "DMVDN",
+                    "typeDescription": "DMV Docket Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "19405",
+                    "typeID": "DMVCRT",
+                    "typeDescription": "DMV Court Code"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "4208",
+                    "typeID": "RESPAGY",
+                    "typeDescription": "Responsible Agency Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "45145565",
+                    "typeID": "MAIN",
+                    "typeDescription": "Main Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "6VLT7M9T4",
+                    "typeID": "FBI",
+                    "typeDescription": "FBI Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "A29790391",
+                    "typeID": "CII",
+                    "typeDescription": "CII Number"
+                },
+                {
+                    "caseID": "16531027",
+                    "number": "D2641897-CA",
+                    "typeID": "DL",
+                    "typeDescription": "Driver's License Number"
+                }
+            ],
+            "caseNotes": [],
+            "message": "",
+            "caseNumber": "LAX1AR02098-01",
+            "caseID": "16531027",
+            "caseUType": "Criminal",
+            "caseUTypeID": "CR"
+        }
+    ],
+    "mode": "Odyssey=production,DataWarehouse=production"
+}

@@ -1,0 +1,1078 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "errorCode": 0,
+    "resultList": [
+        {
+            "caseType": "Criminal",
+            "securityLevel": 0,
+            "caseInfo": [
+                {
+                    "key": "Case Number",
+                    "value": "LAXSA108970-01",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type Code",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Case ID",
+                    "value": "16651374",
+                    "toShow": false
+                },
+                {
+                    "key": "Defendant ID",
+                    "value": "01",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Date",
+                    "value": "10/11/2023",
+                    "toShow": true
+                },
+                {
+                    "key": "Arrest Date",
+                    "value": "10/9/2023",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Courthouse",
+                    "value": "Airport Courthouse",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type",
+                    "value": "Criminal",
+                    "toShow": false
+                },
+                {
+                    "key": "Case UType ID",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Criminal Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Court Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Case Title",
+                    "value": "The People of the State of California vs. ROJAS, BLAKE",
+                    "toShow": true
+                }
+            ],
+            "events": [
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-11-08T00:00:00",
+                    "filedBy": "",
+                    "document": {
+                        "cmsDocumentID": "99860883",
+                        "documentName": "Criminal Master Minute Order",
+                        "documentType": "Criminal Minute Order",
+                        "documentTypeID": "563",
+                        "securityLevel": 0,
+                        "filingDate": "2023-11-08T00:00:00",
+                        "pageCount": 1,
+                        "filedByID": [],
+                        "filedByName": null,
+                        "isViewable": false,
+                        "isViewableOnly": false,
+                        "isPurchaseable": false,
+                        "caseNumber": "LAXSA108970-01",
+                        "caseID": "16651374",
+                        "documentSource": "O",
+                        "filedBy": null,
+                        "filedByString": "",
+                        "securityKey": "g2f0JO8LF18IypagBQqX0tvXuAveQC4"
+                    },
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "ADR Transmission",
+                    "eventTypeID": "83477",
+                    "eventTypeDescription": "ADR Transmission",
+                    "eventDate": "2023-10-27T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventTypeID": "88087",
+                    "eventTypeDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Privilege Against Self-Incrimination",
+                    "eventTypeID": "81369",
+                    "eventTypeDescription": "Waived Privilege Against Self-Incrimination",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventTypeID": "81370",
+                    "eventTypeDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Jury Trial/Court Trial and Preliminary Hrg",
+                    "eventTypeID": "110380",
+                    "eventTypeDescription": "Waived Right to Jury Trial/Court Trial and Preliminary Hrg",
+                    "eventDate": "2023-10-25T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-10-11T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Plea of Not Guilty to Complaint",
+                    "eventTypeID": "102883",
+                    "eventTypeDescription": "Plea of Not Guilty to Complaint",
+                    "eventDate": "2023-10-11T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Arraignment Held",
+                    "eventTypeID": "81316",
+                    "eventTypeDescription": "Arraignment Held",
+                    "eventDate": "2023-10-11T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Complaint Filed",
+                    "eventTypeID": "81291",
+                    "eventTypeDescription": "Complaint Filed",
+                    "eventDate": "2023-10-11T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Defendant Arrested and Booked",
+                    "eventTypeID": "95659",
+                    "eventTypeDescription": "Defendant Arrested and Booked",
+                    "eventDate": "2023-10-09T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                }
+            ],
+            "tabs": [
+                {
+                    "key": "CASE_INFORMATION",
+                    "value": "Case Information",
+                    "toShow": true
+                },
+                {
+                    "key": "PARTIES",
+                    "value": "Parties",
+                    "toShow": true
+                },
+                {
+                    "key": "HEARINGS",
+                    "value": "Proceedings",
+                    "toShow": true
+                },
+                {
+                    "key": "ROA",
+                    "value": "Register of Actions",
+                    "toShow": true
+                },
+                {
+                    "key": "BONDS",
+                    "value": "Bonds",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_CHARGES",
+                    "value": "Charges",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_SENTENCING",
+                    "value": "Sentencing",
+                    "toShow": true
+                }
+            ],
+            "parties": [
+                {
+                    "partyName": "The People of the State of California",
+                    "partyTypeDescription": "Plaintiff",
+                    "remarks": "",
+                    "partyID": "1",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Plaintiff",
+                            "partyType": "Plaintiff",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Stanley Phillip Williams",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18862919",
+                    "barNumber": "318848",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Natasha Simone Cooper",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "26974",
+                    "barNumber": "126396",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "David Edward Borsack",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "129123",
+                    "barNumber": "264218",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "BLAKE ROJAS",
+                    "partyTypeDescription": "Defendant",
+                    "remarks": "",
+                    "partyID": "25797494",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Defendant",
+                            "partyType": "Defendant",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Tonya S Deetz",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for BLAKE ROJAS</li>\r\n<li>Deputy Alternate Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "34563",
+                    "barNumber": "138552",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for BLAKE ROJAS",
+                            "partyType": "Attorney",
+                            "associatedPerson": "BLAKE ROJAS",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Alternate Public Defender",
+                            "partyType": "Deputy Alternate Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "David Hiroshi Cho",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for BLAKE ROJAS</li>\r\n<li>Deputy Alternate Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "35749",
+                    "barNumber": "140606",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for BLAKE ROJAS",
+                            "partyType": "Attorney",
+                            "associatedPerson": "BLAKE ROJAS",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Alternate Public Defender",
+                            "partyType": "Deputy Alternate Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                }
+            ],
+            "relatedCases": [],
+            "historicalDocuments": [],
+            "pastProceedings": [
+                {
+                    "proceedingDate": "2023-11-08T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 80",
+                    "proceedingType": "Restitution Hearing",
+                    "proceedingTypeID": "83008",
+                    "proceedingResult": "Held - Proceedings",
+                    "judicialOfficer": "Sadler, William L.",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-10-25T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 31",
+                    "proceedingType": "Preliminary Hearing",
+                    "proceedingTypeID": "81625",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Brougham, Cathryn F.",
+                    "hearingComment": "Day 10 of 10",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-10-11T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 30",
+                    "proceedingType": "Arraignment",
+                    "proceedingTypeID": "3310",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Zuckman, Mark T.",
+                    "hearingComment": "",
+                    "document": null
+                }
+            ],
+            "futureProceedings": [
+                {
+                    "proceedingDate": "2023-12-06T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 80",
+                    "proceedingType": "Non-Appearance Hearing",
+                    "proceedingTypeID": "83040",
+                    "proceedingResult": null,
+                    "judicialOfficer": "Sadler, William L.",
+                    "hearingComment": null,
+                    "document": null
+                }
+            ],
+            "registerOfActions": [
+                {
+                    "actionDate": "2023-11-08T08:30:00",
+                    "actionDescription": "Restitution Hearing - Held - Proceedings",
+                    "additionalInformation": "(Airport Dept. - 80)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-11-08T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": {
+                        "cmsDocumentID": "99860883",
+                        "documentName": "Criminal Master Minute Order",
+                        "documentType": "Criminal Minute Order",
+                        "documentTypeID": "563",
+                        "securityLevel": 0,
+                        "filingDate": "2023-11-08T00:00:00",
+                        "pageCount": 1,
+                        "filedByID": [],
+                        "filedByName": null,
+                        "isViewable": false,
+                        "isViewableOnly": false,
+                        "isPurchaseable": false,
+                        "caseNumber": "LAXSA108970-01",
+                        "caseID": "16651374",
+                        "documentSource": "O",
+                        "filedBy": null,
+                        "filedByString": "",
+                        "securityKey": "g2f0JO8LF18IypagBQqX0tvXuAveQC4"
+                    }
+                },
+                {
+                    "actionDate": "2023-10-27T00:00:00",
+                    "actionDescription": "ADR Transmission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T08:30:00",
+                    "actionDescription": "Preliminary Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 31) Day 10 of 10",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Waived Privilege Against Self-Incrimination",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-25T00:00:00",
+                    "actionDescription": "Waived Right to Jury Trial/Court Trial and Preliminary Hrg",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-11T08:30:00",
+                    "actionDescription": "Arraignment - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 30)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-11T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-11T00:00:00",
+                    "actionDescription": "Plea of Not Guilty to Complaint",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-11T00:00:00",
+                    "actionDescription": "Arraignment Held",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-11T00:00:00",
+                    "actionDescription": "Complaint Filed",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-10-09T00:00:00",
+                    "actionDescription": "Defendant Arrested and Booked",
+                    "additionalInformation": "",
+                    "document": null
+                }
+            ],
+            "otherCriminalInformation": {
+                "defendant": null,
+                "financialBalance": null,
+                "financialCollectionStatuses": null,
+                "warrants": null,
+                "interimConditions": [
+                    {
+                        "partyName": "BLAKE ROJAS",
+                        "orderDate": "2023-10-25T00:00:00",
+                        "toDisplayString": "(511TCIS) 511  - DEFENDANT IS INSTRUCTED BY THE COURT THAT HE/SHE IS PROHIBITED  FROM OWNING, PURCHASING, RECEIVING, POSSESSING OR HAVING,UNDER  HIS/HER CUSTODY OR CONTROL, ANY FIREARMS, AMMUNITION, AND       AMMUNITION FEEDING DEVICES INCLUDING, BUT NOT LIMITED TO,       MAGAZINES. DEFENDANT IS ORDERED TO RELINQUISH ALL FIREARMS IN   THE MANNER PROVIDED IN PENAL CODE SECTION 29810.  DEFENDANT IS  PROVIDED WITH A PROHIBITED PERSONS RELINQUISHMENT FORM.         ^"
+                    }
+                ],
+                "charges": [
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAXSA108970-01",
+                        "defendantID": "",
+                        "countNumber": "001",
+                        "chargeCode": "PC245(a)(1)",
+                        "statuteName": "PC245(a)(1)-F Assault With Deadly Weapon: Not Firearm",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "10/25/2023 - Dismissed 1385 PC"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "10/25/2023 - Dismissed 1385 PC",
+                        "chargeDispositionDate": "2023-10-25T00:00:00",
+                        "chargeDispositionDateString": "10/25/2023",
+                        "chargeDisposition": "Dismissed 1385 PC",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIA",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAXSA108970-01",
+                        "defendantID": "",
+                        "countNumber": "002",
+                        "chargeCode": "PC245(a)(4)",
+                        "statuteName": "PC245(a)(4)-F Assault With Deadly Weapon With Force: Possible Great Bodily Injury",
+                        "statuteURL": "",
+                        "pleaHistory": [
+                            "10/25/2023: Pleads Nolo Contendere"
+                        ],
+                        "dispositions": [
+                            "10/25/2023 - Conviction After Plea"
+                        ],
+                        "pleaHistoryDisplay": "10/25/2023: Pleads Nolo Contendere",
+                        "lastDispositionDisplay": "10/25/2023 - Conviction After Plea",
+                        "chargeDispositionDate": "2023-10-25T00:00:00",
+                        "chargeDispositionDateString": "10/25/2023",
+                        "chargeDisposition": "Conviction After Plea",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "CON",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    }
+                ],
+                "bondSettings": [
+                    {
+                        "partyName": "BLAKE ROJAS",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-10-25T00:00:00",
+                        "settingDateDisplay": "10/25/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "BLAKE ROJAS",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-10-11T00:00:00",
+                        "settingDateDisplay": "10/11/2023",
+                        "settingType": "Remanded to Custody",
+                        "description": "Remanded to Custody - $30,000.00",
+                        "bailAmount": 30000.0,
+                        "warrantID": ""
+                    }
+                ],
+                "bonds": [],
+                "sentencing": [
+                    {
+                        "sentenceType": "Imposition of Sentence Suspended",
+                        "sentenceDate": "2023-10-25T00:00:00",
+                        "sentenceDateDisplay": "10/25/2023",
+                        "judicialOfficer": "Brougham, Cathryn F.",
+                        "amendReason": "",
+                        "chargeNumber": "002",
+                        "chargeDescription": "PC245(a)(4)-F Assault With Deadly Weapon With Force: Possible Great Bodily Injury",
+                        "probation": [
+                            {
+                                "probationType": "Formal Probation",
+                                "duration": "2 years",
+                                "conditions": [
+                                    {
+                                        "conditionID": "14874331",
+                                        "conditionTypeCode": "048TCIS",
+                                        "conditionType": "048",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND THE MANNER PRESCRIBED BY THE COURT, SUBJECT TO A HEARING IF REQUESTED."
+                                    },
+                                    {
+                                        "conditionID": "14874332",
+                                        "conditionTypeCode": "541TCIS",
+                                        "conditionType": "541",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "541; OBEY ALL LAWS AND ORDERS OF THE COURT."
+                                    },
+                                    {
+                                        "conditionID": "14874333",
+                                        "conditionTypeCode": "542TCIS",
+                                        "conditionType": "542",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "542; OBEY ALL RULES AND REGULATIONS OF THE PROBATION DEPARTMENT."
+                                    },
+                                    {
+                                        "conditionID": "14874334",
+                                        "conditionTypeCode": "817TCIS",
+                                        "conditionType": "817",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "817 DEFENDANT TO REPORT TO THE PROBATION OFFICER WITHIN  48 HOURS AFTER RELEASE FROM CUSTODY."
+                                    },
+                                    {
+                                        "conditionID": "14874335",
+                                        "conditionTypeCode": "500TCIS",
+                                        "conditionType": "500",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "500; SEEK AND MAINTAIN TRAINING, SCHOOLING OR EMPLOYMENT AS APPROVED BY THE PROBATION OFFICER."
+                                    },
+                                    {
+                                        "conditionID": "14874336",
+                                        "conditionTypeCode": "536TCIS",
+                                        "conditionType": "536",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "536; MAINTAIN RESIDENCE AS APPROVED BY THE PROBATION OFFICER."
+                                    },
+                                    {
+                                        "conditionID": "14874337",
+                                        "conditionTypeCode": "564TCIS",
+                                        "conditionType": "564",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "564; KEEP PROBATION OFFICER ADVISED OF YOUR RESIDENCE AND WORK AND   HOME TELEPHONE NUMBERS AT ALL TIMES."
+                                    },
+                                    {
+                                        "conditionID": "14874338",
+                                        "conditionTypeCode": "576TCIS",
+                                        "conditionType": "576",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "576; SUBMIT YOUR PERSON AND PROPERTY TO SEARCH AND SEIZURE AT ANY    TIME OF THE DAY OR NIGHT, BY ANY PROBATION OFFICER OR OTHER     PEACE OFFICER, WITH OR WITHOUT A WARRANT, PROBABLE CAUSE OR     REASONABLE SUSPICION."
+                                    },
+                                    {
+                                        "conditionID": "14874339",
+                                        "conditionTypeCode": "230TCIS",
+                                        "conditionType": "230",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "230; NOT OWN, USE OR POSSESS ANY DANGEROUS OR DEADLY WEAPONS,        INCLUDING ANY FIREARMS, KNIVES OR OTHER CONCEALABLE WEAPONS.    ^"
+                                    },
+                                    {
+                                        "conditionID": "14874340",
+                                        "conditionTypeCode": "098TCIS",
+                                        "conditionType": "098",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "098 THE DEFENDANT IS TO PAY A RESTITUTION FINE PURSUANT TO SECTION 1202.4(B) PENAL CODE IN THE AMOUNT OF $300.00."
+                                    },
+                                    {
+                                        "conditionID": "14874341",
+                                        "conditionTypeCode": "107TCIS",
+                                        "conditionType": "107",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "107 DEFENDANT IS ORDERED TO PAY A PROBATION REVOCATION RESTITUTION FINE PURSUANT TO PENAL CODE SECTION 1202.44, IN THE SAME AMOUNT AS THE RESTITUTION FINE, PAYMENT IS STAYED UNTIL PROBATION IS REVOKED AND SENTENCE IMPOSED."
+                                    },
+                                    {
+                                        "conditionID": "14874342",
+                                        "conditionTypeCode": "810TCIS",
+                                        "conditionType": "810",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME."
+                                    },
+                                    {
+                                        "conditionID": "14874343",
+                                        "conditionTypeCode": "790TCIS",
+                                        "conditionType": "790",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "790; PURSUANT TO PC SECTION 296, THE DEFENDANT IS ORDERED TO PROVIDE BUCCAL SWAB SAMPLES, A RIGHT THUMB PRINT, A FULL PALM PRINT     IMPRESSION OF EACH HAND, ANY BLOOD SPECIMENS OR OTHER BIOLOGICALSAMPLES AS REQUIRED BY THIS SECTION FOR LAW ENFORCEMENT         IDENTIFICATION."
+                                    },
+                                    {
+                                        "conditionID": "14874344",
+                                        "conditionTypeCode": "541TCIS",
+                                        "conditionType": "541",
+                                        "effectiveDateStart": "2023-10-25",
+                                        "effectiveDateStartObject": "2023-10-25T00:00:00",
+                                        "effectiveDateStartDisplay": "10/25/2023",
+                                        "status": {
+                                            "statusCode": "ACT",
+                                            "statusType": "Active",
+                                            "statusDate": "2023-10-25",
+                                            "statusDateObject": "2023-10-25T00:00:00",
+                                            "statusDateDisplay": "10/25/2023"
+                                        },
+                                        "comment": "THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT."
+                                    }
+                                ],
+                                "excludeTollingDays": true,
+                                "conditionsDisplay": "<ul><li>048 effective 10/25/2023: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND THE MANNER PRESCRIBED BY THE COURT, SUBJECT TO A HEARING IF REQUESTED. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: 541; OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li><li>542 effective 10/25/2023: 542; OBEY ALL RULES AND REGULATIONS OF THE PROBATION DEPARTMENT. (Active on 10/25/2023)</li><li>817 effective 10/25/2023: 817 DEFENDANT TO REPORT TO THE PROBATION OFFICER WITHIN  48 HOURS AFTER RELEASE FROM CUSTODY. (Active on 10/25/2023)</li><li>500 effective 10/25/2023: 500; SEEK AND MAINTAIN TRAINING, SCHOOLING OR EMPLOYMENT AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>536 effective 10/25/2023: 536; MAINTAIN RESIDENCE AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>564 effective 10/25/2023: 564; KEEP PROBATION OFFICER ADVISED OF YOUR RESIDENCE AND WORK AND   HOME TELEPHONE NUMBERS AT ALL TIMES. (Active on 10/25/2023)</li><li>576 effective 10/25/2023: 576; SUBMIT YOUR PERSON AND PROPERTY TO SEARCH AND SEIZURE AT ANY    TIME OF THE DAY OR NIGHT, BY ANY PROBATION OFFICER OR OTHER     PEACE OFFICER, WITH OR WITHOUT A WARRANT, PROBABLE CAUSE OR     REASONABLE SUSPICION. (Active on 10/25/2023)</li><li>230 effective 10/25/2023: 230; NOT OWN, USE OR POSSESS ANY DANGEROUS OR DEADLY WEAPONS,        INCLUDING ANY FIREARMS, KNIVES OR OTHER CONCEALABLE WEAPONS.    ^ (Active on 10/25/2023)</li><li>098 effective 10/25/2023: 098 THE DEFENDANT IS TO PAY A RESTITUTION FINE PURSUANT TO SECTION 1202.4(B) PENAL CODE IN THE AMOUNT OF $300.00. (Active on 10/25/2023)</li><li>107 effective 10/25/2023: 107 DEFENDANT IS ORDERED TO PAY A PROBATION REVOCATION RESTITUTION FINE PURSUANT TO PENAL CODE SECTION 1202.44, IN THE SAME AMOUNT AS THE RESTITUTION FINE, PAYMENT IS STAYED UNTIL PROBATION IS REVOKED AND SENTENCE IMPOSED. (Active on 10/25/2023)</li><li>810 effective 10/25/2023: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 10/25/2023)</li><li>790 effective 10/25/2023: 790; PURSUANT TO PC SECTION 296, THE DEFENDANT IS ORDERED TO PROVIDE BUCCAL SWAB SAMPLES, A RIGHT THUMB PRINT, A FULL PALM PRINT     IMPRESSION OF EACH HAND, ANY BLOOD SPECIMENS OR OTHER BIOLOGICALSAMPLES AS REQUIRED BY THIS SECTION FOR LAW ENFORCEMENT         IDENTIFICATION. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li></ul>",
+                                "statuses": [
+                                    {
+                                        "probationStatusCollectionID": "13282239",
+                                        "probationStatusCode": "PREF",
+                                        "status": "In Effect",
+                                        "statusDate": "2023-10-25",
+                                        "statusDateObject": "2023-10-25T00:00:00",
+                                        "statusDateDisplay": "10/25/2023"
+                                    }
+                                ],
+                                "statusesDisplay": "10/25/2023: In Effect",
+                                "lastStatus": {
+                                    "probationStatusCollectionID": "13282239",
+                                    "probationStatusCode": "PREF",
+                                    "status": "In Effect",
+                                    "statusDate": "2023-10-25",
+                                    "statusDateObject": "2023-10-25T00:00:00",
+                                    "statusDateDisplay": "10/25/2023"
+                                },
+                                "probationDisplay": "Formal Probation<ul><li><b>Term</b>: 2 years</li><li><b>Status</b>: In Effect</li><li><b>Conditions: </b><ul><li>048 effective 10/25/2023: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND THE MANNER PRESCRIBED BY THE COURT, SUBJECT TO A HEARING IF REQUESTED. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: 541; OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li><li>542 effective 10/25/2023: 542; OBEY ALL RULES AND REGULATIONS OF THE PROBATION DEPARTMENT. (Active on 10/25/2023)</li><li>817 effective 10/25/2023: 817 DEFENDANT TO REPORT TO THE PROBATION OFFICER WITHIN  48 HOURS AFTER RELEASE FROM CUSTODY. (Active on 10/25/2023)</li><li>500 effective 10/25/2023: 500; SEEK AND MAINTAIN TRAINING, SCHOOLING OR EMPLOYMENT AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>536 effective 10/25/2023: 536; MAINTAIN RESIDENCE AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>564 effective 10/25/2023: 564; KEEP PROBATION OFFICER ADVISED OF YOUR RESIDENCE AND WORK AND   HOME TELEPHONE NUMBERS AT ALL TIMES. (Active on 10/25/2023)</li><li>576 effective 10/25/2023: 576; SUBMIT YOUR PERSON AND PROPERTY TO SEARCH AND SEIZURE AT ANY    TIME OF THE DAY OR NIGHT, BY ANY PROBATION OFFICER OR OTHER     PEACE OFFICER, WITH OR WITHOUT A WARRANT, PROBABLE CAUSE OR     REASONABLE SUSPICION. (Active on 10/25/2023)</li><li>230 effective 10/25/2023: 230; NOT OWN, USE OR POSSESS ANY DANGEROUS OR DEADLY WEAPONS,        INCLUDING ANY FIREARMS, KNIVES OR OTHER CONCEALABLE WEAPONS.    ^ (Active on 10/25/2023)</li><li>098 effective 10/25/2023: 098 THE DEFENDANT IS TO PAY A RESTITUTION FINE PURSUANT TO SECTION 1202.4(B) PENAL CODE IN THE AMOUNT OF $300.00. (Active on 10/25/2023)</li><li>107 effective 10/25/2023: 107 DEFENDANT IS ORDERED TO PAY A PROBATION REVOCATION RESTITUTION FINE PURSUANT TO PENAL CODE SECTION 1202.44, IN THE SAME AMOUNT AS THE RESTITUTION FINE, PAYMENT IS STAYED UNTIL PROBATION IS REVOKED AND SENTENCE IMPOSED. (Active on 10/25/2023)</li><li>810 effective 10/25/2023: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 10/25/2023)</li><li>790 effective 10/25/2023: 790; PURSUANT TO PC SECTION 296, THE DEFENDANT IS ORDERED TO PROVIDE BUCCAL SWAB SAMPLES, A RIGHT THUMB PRINT, A FULL PALM PRINT     IMPRESSION OF EACH HAND, ANY BLOOD SPECIMENS OR OTHER BIOLOGICALSAMPLES AS REQUIRED BY THIS SECTION FOR LAW ENFORCEMENT         IDENTIFICATION. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li></ul></li></ul>"
+                            }
+                        ],
+                        "driversLicenseConditions": [],
+                        "programs": [],
+                        "confinements": [
+                            {
+                                "confinementType": "Los Angeles County Jail",
+                                "description": "Jail as a Condition of Probation at Los Angeles County Jail",
+                                "durations": [
+                                    {
+                                        "key": "Term Duration",
+                                        "value": "365 days"
+                                    },
+                                    {
+                                        "key": "Credit For Time Served",
+                                        "value": "17 days"
+                                    },
+                                    {
+                                        "key": "Conduct Credit",
+                                        "value": "17 days"
+                                    }
+                                ],
+                                "displayString": ""
+                            }
+                        ],
+                        "comments": [
+                            {
+                                "dispositionComponentInstanceID": "16338532",
+                                "comment": "Total Jail Credit: 034 D Actual Credit: 017 D Good Time/Work Time Credit: 017 D Additional Assessment 1: CC $30.00 Additional Assessment 2: CA $40.00 Commitment Issued: FW\r\n- COMPLETE AN APPROVED 52 WEEKS ANGER MANAGEMENT COUNSELING   PROGRAM - STAY 100 YARDS AWAY FROM:   RALLY'S 12812 S. HAWTHORNE BLVD., LOS ANGELES   JAMES MARKS .. PEOPLE'S MOTION TO DISMISS REMAINING COUNT PURSUANT TO PENAL CODE SECTION 1385 IS GRANTED. .. RESTITUTION HEARING SETTING AND PROHIBITED PERSONS RELINQUISHMENT FORM FINDINGS/NON APPEARANCE IS SET FOR NOVEMBER 8, 2023 AT 8:30 AM IN DEPARTMENT W80. .. DEFENDANT WAIVES HIS PRESENCE AT THE RESTITUTION HEARING SETTING."
+                            }
+                        ],
+                        "commentsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Comments</div><ul><li>Total Jail Credit: 034 D Actual Credit: 017 D Good Time/Work Time Credit: 017 D Additional Assessment 1: CC $30.00 Additional Assessment 2: CA $40.00 Commitment Issued: FW<br />- COMPLETE AN APPROVED 52 WEEKS ANGER MANAGEMENT COUNSELING   PROGRAM - STAY 100 YARDS AWAY FROM:   RALLY'S 12812 S. HAWTHORNE BLVD., LOS ANGELES   JAMES MARKS .. PEOPLE'S MOTION TO DISMISS REMAINING COUNT PURSUANT TO PENAL CODE SECTION 1385 IS GRANTED. .. RESTITUTION HEARING SETTING AND PROHIBITED PERSONS RELINQUISHMENT FORM FINDINGS/NON APPEARANCE IS SET FOR NOVEMBER 8, 2023 AT 8:30 AM IN DEPARTMENT W80. .. DEFENDANT WAIVES HIS PRESENCE AT THE RESTITUTION HEARING SETTING.</li></ul></div>",
+                        "probationDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Probation</div><div><ul><li>Formal Probation<ul><li><b>Term</b>: 2 years</li><li><b>Status</b>: In Effect</li><li><b>Conditions: </b><ul><li>048 effective 10/25/2023: 048 MAKE RESTITUTION TO VICTIM PURSUANT TO PC SECTION 1202.4(F) IN AN AMOUNT AND THE MANNER PRESCRIBED BY THE COURT, SUBJECT TO A HEARING IF REQUESTED. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: 541; OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li><li>542 effective 10/25/2023: 542; OBEY ALL RULES AND REGULATIONS OF THE PROBATION DEPARTMENT. (Active on 10/25/2023)</li><li>817 effective 10/25/2023: 817 DEFENDANT TO REPORT TO THE PROBATION OFFICER WITHIN  48 HOURS AFTER RELEASE FROM CUSTODY. (Active on 10/25/2023)</li><li>500 effective 10/25/2023: 500; SEEK AND MAINTAIN TRAINING, SCHOOLING OR EMPLOYMENT AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>536 effective 10/25/2023: 536; MAINTAIN RESIDENCE AS APPROVED BY THE PROBATION OFFICER. (Active on 10/25/2023)</li><li>564 effective 10/25/2023: 564; KEEP PROBATION OFFICER ADVISED OF YOUR RESIDENCE AND WORK AND   HOME TELEPHONE NUMBERS AT ALL TIMES. (Active on 10/25/2023)</li><li>576 effective 10/25/2023: 576; SUBMIT YOUR PERSON AND PROPERTY TO SEARCH AND SEIZURE AT ANY    TIME OF THE DAY OR NIGHT, BY ANY PROBATION OFFICER OR OTHER     PEACE OFFICER, WITH OR WITHOUT A WARRANT, PROBABLE CAUSE OR     REASONABLE SUSPICION. (Active on 10/25/2023)</li><li>230 effective 10/25/2023: 230; NOT OWN, USE OR POSSESS ANY DANGEROUS OR DEADLY WEAPONS,        INCLUDING ANY FIREARMS, KNIVES OR OTHER CONCEALABLE WEAPONS.    ^ (Active on 10/25/2023)</li><li>098 effective 10/25/2023: 098 THE DEFENDANT IS TO PAY A RESTITUTION FINE PURSUANT TO SECTION 1202.4(B) PENAL CODE IN THE AMOUNT OF $300.00. (Active on 10/25/2023)</li><li>107 effective 10/25/2023: 107 DEFENDANT IS ORDERED TO PAY A PROBATION REVOCATION RESTITUTION FINE PURSUANT TO PENAL CODE SECTION 1202.44, IN THE SAME AMOUNT AS THE RESTITUTION FINE, PAYMENT IS STAYED UNTIL PROBATION IS REVOKED AND SENTENCE IMPOSED. (Active on 10/25/2023)</li><li>810 effective 10/25/2023: 810; DEFENDANT ACKNOWLEDGES TO THE COURT THAT THE DEFENDANT          UNDERSTANDS AND ACCEPTS ALL THE PROBATION CONDITIONS, AND       DEFENDANT AGREES TO ABIDE BY SAME. (Active on 10/25/2023)</li><li>790 effective 10/25/2023: 790; PURSUANT TO PC SECTION 296, THE DEFENDANT IS ORDERED TO PROVIDE BUCCAL SWAB SAMPLES, A RIGHT THUMB PRINT, A FULL PALM PRINT     IMPRESSION OF EACH HAND, ANY BLOOD SPECIMENS OR OTHER BIOLOGICALSAMPLES AS REQUIRED BY THIS SECTION FOR LAW ENFORCEMENT         IDENTIFICATION. (Active on 10/25/2023)</li><li>541 effective 10/25/2023: THE DEFENDANT IS ORDERED TO OBEY ALL LAWS AND ORDERS OF THE COURT. (Active on 10/25/2023)</li></ul></li></ul></li></ul></div>\r\n</div>\r\n",
+                        "driversLicenseConditionsDisplay": "",
+                        "programsDisplay": "",
+                        "confinementsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Confinements</div><div><ul><li><b>Jail as a Condition of Probation at Los Angeles County Jail</b><ul><li><b>Type: </b>Los Angeles County Jail</li><li><b>Term Duration: </b>365 days</li><li><b>Credit For Time Served: </b>17 days</li><li><b>Conduct Credit: </b>17 days</li></ul></li></ul></div></div>"
+                    }
+                ],
+                "criminalRegister": ""
+            },
+            "documents": [],
+            "crossReferences": [
+                {
+                    "caseID": "16651374",
+                    "number": "01",
+                    "typeID": "DAID",
+                    "typeDescription": "Prosecutor Defendant ID Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "026808384",
+                    "typeID": "CII",
+                    "typeDescription": "CII Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "1928",
+                    "typeID": "RESPAGY",
+                    "typeDescription": "Responsible Agency Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "19405",
+                    "typeID": "DMVCRT",
+                    "typeDescription": "DMV Court Code"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "2310248",
+                    "typeID": "LPD",
+                    "typeDescription": "Local Police Department Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "240645KC2",
+                    "typeID": "FBI",
+                    "typeDescription": "FBI Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "43867546",
+                    "typeID": "DAC",
+                    "typeDescription": "Prosecutor Case Number"
+                },
+                {
+                    "caseID": "16651374",
+                    "number": "S108970",
+                    "typeID": "DMVDN",
+                    "typeDescription": "DMV Docket Number"
+                }
+            ],
+            "caseNotes": [],
+            "message": "",
+            "caseNumber": "LAXSA108970-01",
+            "caseID": "16651374",
+            "caseUType": "Criminal",
+            "caseUTypeID": "CR"
+        }
+    ],
+    "mode": "Odyssey=production,DataWarehouse=production"
+}

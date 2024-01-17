@@ -1,0 +1,1467 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "errorCode": 0,
+    "resultList": [
+        {
+            "caseType": "Criminal",
+            "securityLevel": 0,
+            "caseInfo": [
+                {
+                    "key": "Case Number",
+                    "value": "LAX0AR31883-01",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type Code",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Case ID",
+                    "value": "16525380",
+                    "toShow": false
+                },
+                {
+                    "key": "Defendant ID",
+                    "value": "01",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Date",
+                    "value": "5/19/2020",
+                    "toShow": true
+                },
+                {
+                    "key": "Arrest Date",
+                    "value": "12/6/2019",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Courthouse",
+                    "value": "Airport Courthouse",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type",
+                    "value": "Criminal",
+                    "toShow": false
+                },
+                {
+                    "key": "Case UType ID",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Criminal Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Court Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Case Title",
+                    "value": "The People of the State of California vs. MARSHALL NEWMAN, STEPHAUN ANTHONY",
+                    "toShow": true
+                }
+            ],
+            "events": [
+                {
+                    "eventType": "Bench Warrant Issued",
+                    "eventTypeID": "103951",
+                    "eventTypeDescription": "Bench Warrant Issued",
+                    "eventDate": "2023-11-16T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-11-16T00:00:00",
+                    "filedBy": "",
+                    "document": {
+                        "cmsDocumentID": "99812268",
+                        "documentName": "Criminal Master Minute Order",
+                        "documentType": "Criminal Minute Order",
+                        "documentTypeID": "563",
+                        "securityLevel": 0,
+                        "filingDate": "2023-11-16T00:00:00",
+                        "pageCount": 1,
+                        "filedByID": [],
+                        "filedByName": null,
+                        "isViewable": false,
+                        "isViewableOnly": false,
+                        "isPurchaseable": false,
+                        "caseNumber": "LAX0AR31883-01",
+                        "caseID": "16525380",
+                        "documentSource": "O",
+                        "filedBy": null,
+                        "filedByString": "",
+                        "securityKey": "u9xWGAsSV58P0XTtZwtuNgzUZf0aYdlh"
+                    },
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Referred to Courtroom",
+                    "eventTypeID": "105991",
+                    "eventTypeDescription": "Referred to Courtroom",
+                    "eventDate": "2023-11-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "11/13/2023, defendant failed to submit proof of alcohol program.",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "ADR Transmission",
+                    "eventTypeID": "83477",
+                    "eventTypeDescription": "ADR Transmission",
+                    "eventDate": "2023-02-10T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "eventTypeID": "88085",
+                    "eventTypeDescription": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Privilege Against Self-Incrimination",
+                    "eventTypeID": "81369",
+                    "eventTypeDescription": "Waived Privilege Against Self-Incrimination",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventTypeID": "81370",
+                    "eventTypeDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Trial by Court or Jury",
+                    "eventTypeID": "81372",
+                    "eventTypeDescription": "Waived Right to Trial by Court or Jury",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "DMV Abstract Issued",
+                    "eventTypeID": "107837",
+                    "eventTypeDescription": "DMV Abstract Issued",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventTypeID": "88087",
+                    "eventTypeDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventDate": "2023-02-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-02-07T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-12-08T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-10-26T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-08-16T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-06-16T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Plea of Not Guilty to Complaint",
+                    "eventTypeID": "102883",
+                    "eventTypeDescription": "Plea of Not Guilty to Complaint",
+                    "eventDate": "2022-06-16T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Arraignment Held",
+                    "eventTypeID": "81316",
+                    "eventTypeDescription": "Arraignment Held",
+                    "eventDate": "2022-06-16T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2021-02-03T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Docket Line Entry",
+                    "eventTypeID": "82992",
+                    "eventTypeDescription": "Docket Line Entry",
+                    "eventDate": "2020-11-09T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "DEFENDANT HAS BEEN CITED-OUT BY THE LOS ANGELES COUNTY SHERIFF'S DEPARTMENT TO APPEAR ON 02/03/2021 IN DEPARTMENT W73 FOR A BENCH WARRANT HEARING. REFERENCE CITATION# AC119665 (UB)",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2020-08-05T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2020-05-20T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Complaint Filed",
+                    "eventTypeID": "81291",
+                    "eventTypeDescription": "Complaint Filed",
+                    "eventDate": "2020-05-19T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Case Initiated by Letter to Appear",
+                    "eventTypeID": "95664",
+                    "eventTypeDescription": "Case Initiated by Letter to Appear",
+                    "eventDate": "2019-12-06T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                }
+            ],
+            "tabs": [
+                {
+                    "key": "CASE_INFORMATION",
+                    "value": "Case Information",
+                    "toShow": true
+                },
+                {
+                    "key": "PARTIES",
+                    "value": "Parties",
+                    "toShow": true
+                },
+                {
+                    "key": "HEARINGS",
+                    "value": "Proceedings",
+                    "toShow": true
+                },
+                {
+                    "key": "ROA",
+                    "value": "Register of Actions",
+                    "toShow": true
+                },
+                {
+                    "key": "BONDS",
+                    "value": "Bonds",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_CHARGES",
+                    "value": "Charges",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_SENTENCING",
+                    "value": "Sentencing",
+                    "toShow": true
+                }
+            ],
+            "parties": [
+                {
+                    "partyName": "The People of the State of California",
+                    "partyTypeDescription": "Plaintiff",
+                    "remarks": "",
+                    "partyID": "1",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Plaintiff",
+                            "partyType": "Plaintiff",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Stanley Phillip Williams",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18862919",
+                    "barNumber": "318848",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Amy Rose Cole",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "17325713",
+                    "barNumber": "322185",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Christina Marie Lutz",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "149378",
+                    "barNumber": "286148",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Jillian Lee Hansen",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "168700",
+                    "barNumber": "305908",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Colin Adalberto Valencia",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "170609",
+                    "barNumber": "307797",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Timothy C. Beasley-Henderson",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "170912",
+                    "barNumber": "308101",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Monica Amanda Bustos",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy District Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18863279",
+                    "barNumber": "313057",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy District Attorney",
+                            "partyType": "Deputy District Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                    "partyTypeDescription": "Defendant",
+                    "remarks": "",
+                    "partyID": "25670830",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Defendant",
+                            "partyType": "Defendant",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Danielle Nikoal Humphrey-Iddrissu",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "151648",
+                    "barNumber": "288517",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "partyType": "Attorney",
+                            "associatedPerson": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Karla Rachelle Crone",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "164864",
+                    "barNumber": "302078",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "partyType": "Attorney",
+                            "associatedPerson": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Deputy Public Defender",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "18208511",
+                    "barNumber": "DPD",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "partyType": "Attorney",
+                            "associatedPerson": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Nancy E. Bassali",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "15916949",
+                    "barNumber": "318140",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "partyType": "Attorney",
+                            "associatedPerson": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                }
+            ],
+            "relatedCases": [],
+            "historicalDocuments": [],
+            "pastProceedings": [
+                {
+                    "proceedingDate": "2023-11-16T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Judicial Action",
+                    "proceedingTypeID": "83038",
+                    "proceedingResult": "Not Held - Other Proceedings",
+                    "judicialOfficer": "Giza, Alexander C.D.",
+                    "hearingComment": null,
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-11-08T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Proof of Completion",
+                    "proceedingTypeID": "111227",
+                    "proceedingResult": "Clerk's Office - Referred to Courtroom",
+                    "judicialOfficer": null,
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-02-08T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Bench Warrant Hearing",
+                    "proceedingTypeID": "92963",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Cooper, James P., III",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-02-07T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Garcia Uhrig, Emily",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-12-08T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Garcia Uhrig, Emily",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-10-26T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Pretrial Hearing",
+                    "proceedingTypeID": "81678",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Garcia Uhrig, Emily",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-08-16T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Pretrial and Motion",
+                    "proceedingTypeID": "83080",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Garcia Uhrig, Emily",
+                    "hearingComment": "Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-06-16T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 72",
+                    "proceedingType": "Bench Warrant Hearing",
+                    "proceedingTypeID": "92963",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Garcia Uhrig, Emily",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2021-02-03T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 73",
+                    "proceedingType": "Bench Warrant Hearing",
+                    "proceedingTypeID": "92963",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Cooper, James P., III",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2020-11-09T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Docket Line Entry",
+                    "proceedingTypeID": "105905",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": null,
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2020-08-05T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 73",
+                    "proceedingType": "Bench Warrant Hold",
+                    "proceedingTypeID": "108022",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Hall, Tamara",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2020-05-20T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 73",
+                    "proceedingType": "Arraignment",
+                    "proceedingTypeID": "3310",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Burghardt, Joseph J.",
+                    "hearingComment": "",
+                    "document": null
+                }
+            ],
+            "futureProceedings": [],
+            "registerOfActions": [
+                {
+                    "actionDate": "2023-11-16T08:30:00",
+                    "actionDescription": "Judicial Action - Not Held - Other Proceedings",
+                    "additionalInformation": "(Airport Dept. - 72)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-11-16T00:00:00",
+                    "actionDescription": "Bench Warrant Issued",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-11-16T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": {
+                        "cmsDocumentID": "99812268",
+                        "documentName": "Criminal Master Minute Order",
+                        "documentType": "Criminal Minute Order",
+                        "documentTypeID": "563",
+                        "securityLevel": 0,
+                        "filingDate": "2023-11-16T00:00:00",
+                        "pageCount": 1,
+                        "filedByID": [],
+                        "filedByName": null,
+                        "isViewable": false,
+                        "isViewableOnly": false,
+                        "isPurchaseable": false,
+                        "caseNumber": "LAX0AR31883-01",
+                        "caseID": "16525380",
+                        "documentSource": "O",
+                        "filedBy": null,
+                        "filedByString": "",
+                        "securityKey": "u9xWGAsSV58P0XTtZwtuNgzUZf0aYdlh"
+                    }
+                },
+                {
+                    "actionDate": "2023-11-08T08:30:00",
+                    "actionDescription": "Proof of Completion - Clerk's Office - Referred to Courtroom",
+                    "additionalInformation": "(Airport Clerk's Office)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-11-08T00:00:00",
+                    "actionDescription": "Referred to Courtroom",
+                    "additionalInformation": "11/13/2023, defendant failed to submit proof of alcohol program.",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-10T00:00:00",
+                    "actionDescription": "ADR Transmission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T08:30:00",
+                    "actionDescription": "Bench Warrant Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Waived Privilege Against Self-Incrimination",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Waived Right to Trial by Court or Jury",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "DMV Abstract Issued",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-08T00:00:00",
+                    "actionDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-07T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-02-07T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-08T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-08T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-10-26T08:30:00",
+                    "actionDescription": "Pretrial Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-10-26T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-08-16T08:30:00",
+                    "actionDescription": "Pretrial and Motion - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72) Day 00 of 30",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-08-16T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-16T08:30:00",
+                    "actionDescription": "Bench Warrant Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 72)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-16T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-16T00:00:00",
+                    "actionDescription": "Plea of Not Guilty to Complaint",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-06-16T00:00:00",
+                    "actionDescription": "Arraignment Held",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-02-03T08:30:00",
+                    "actionDescription": "Bench Warrant Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 73)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2021-02-03T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-11-09T08:30:00",
+                    "actionDescription": "Docket Line Entry - Proceedings Heard",
+                    "additionalInformation": "(Airport Clerk's Office)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-11-09T00:00:00",
+                    "actionDescription": "Docket Line Entry",
+                    "additionalInformation": "DEFENDANT HAS BEEN CITED-OUT BY THE LOS ANGELES COUNTY SHERIFF'S DEPARTMENT TO APPEAR ON 02/03/2021 IN DEPARTMENT W73 FOR A BENCH WARRANT HEARING. REFERENCE CITATION# AC119665 (UB)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-08-05T08:30:00",
+                    "actionDescription": "Bench Warrant Hold - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 73)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-08-05T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-05-20T08:30:00",
+                    "actionDescription": "Arraignment - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 73)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-05-20T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2020-05-19T00:00:00",
+                    "actionDescription": "Complaint Filed",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2019-12-06T00:00:00",
+                    "actionDescription": "Case Initiated by Letter to Appear",
+                    "additionalInformation": "",
+                    "document": null
+                }
+            ],
+            "otherCriminalInformation": {
+                "defendant": null,
+                "financialBalance": null,
+                "financialCollectionStatuses": null,
+                "warrants": null,
+                "interimConditions": [
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "orderDate": "2023-02-08T00:00:00",
+                        "toDisplayString": "(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE."
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "orderDate": "2022-12-08T00:00:00",
+                        "toDisplayString": "(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE."
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "orderDate": "2022-10-26T00:00:00",
+                        "toDisplayString": "(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE."
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "orderDate": "2022-06-16T00:00:00",
+                        "toDisplayString": "(683TCIS) 683  - THE COURT ORDERS THE DEFENDANT TO APPEAR ON THE NEXT COURT DATE."
+                    }
+                ],
+                "charges": [
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX0AR31883-01",
+                        "defendantID": "",
+                        "countNumber": "001",
+                        "chargeCode": "VC23152(a)",
+                        "statuteName": "VC23152(a)-M Driving Under The Influence Alcohol",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "2/8/2023 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "2/8/2023 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2023-02-08T00:00:00",
+                        "chargeDispositionDateString": "2/8/2023",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX0AR31883-01",
+                        "defendantID": "",
+                        "countNumber": "002",
+                        "chargeCode": "VC23152(b)",
+                        "statuteName": "VC23152(b)-M Driving With .08% Blood Alcohol Content",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "2/8/2023 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "2/8/2023 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2023-02-08T00:00:00",
+                        "chargeDispositionDateString": "2/8/2023",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX0AR31883-01",
+                        "defendantID": "",
+                        "countNumber": "003",
+                        "chargeCode": "VC23103.5",
+                        "statuteName": "VC23103.5-M Wet Reckless",
+                        "statuteURL": "",
+                        "pleaHistory": [
+                            "2/8/2023: Pleads Nolo Contendere"
+                        ],
+                        "dispositions": [
+                            "2/8/2023 - Conviction After Plea"
+                        ],
+                        "pleaHistoryDisplay": "2/8/2023: Pleads Nolo Contendere",
+                        "lastDispositionDisplay": "2/8/2023 - Conviction After Plea",
+                        "chargeDispositionDate": "2023-02-08T00:00:00",
+                        "chargeDispositionDateString": "2/8/2023",
+                        "chargeDisposition": "Conviction After Plea",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "CON",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    }
+                ],
+                "bondSettings": [
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Warrant",
+                        "settingDate": "2023-11-16T00:00:00",
+                        "settingDateDisplay": "11/16/2023",
+                        "settingType": "Warrant Bail Set",
+                        "description": "Warrant Bail Set - $5,000.00",
+                        "bailAmount": 5000.0,
+                        "warrantID": "4166921"
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-02-08T00:00:00",
+                        "settingDateDisplay": "2/8/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Warrant",
+                        "settingDate": "2023-02-07T00:00:00",
+                        "settingDateDisplay": "2/7/2023",
+                        "settingType": "Warrant Bail Set",
+                        "description": "Warrant Bail Set - $20,000.00",
+                        "bailAmount": 20000.0,
+                        "warrantID": "2982670"
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-12-08T00:00:00",
+                        "settingDateDisplay": "12/8/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-10-26T00:00:00",
+                        "settingDateDisplay": "10/26/2022",
+                        "settingType": "Released on Own Recognizance",
+                        "description": "Released on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-06-16T00:00:00",
+                        "settingDateDisplay": "6/16/2022",
+                        "settingType": "Remains on Own Recognizance",
+                        "description": "Remains on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Warrant",
+                        "settingDate": "2021-02-03T00:00:00",
+                        "settingDateDisplay": "2/3/2021",
+                        "settingType": "Warrant Bail Set",
+                        "description": "Warrant Bail Set - $5,000.00",
+                        "bailAmount": 5000.0,
+                        "warrantID": "2982669"
+                    },
+                    {
+                        "partyName": "STEPHAUN ANTHONY MARSHALL NEWMAN",
+                        "settingGroupType": "By Warrant",
+                        "settingDate": "2020-08-05T00:00:00",
+                        "settingDateDisplay": "8/5/2020",
+                        "settingType": "Warrant Bail Set",
+                        "description": "Warrant Bail Set - $100.00",
+                        "bailAmount": 100.0,
+                        "warrantID": "2982671"
+                    }
+                ],
+                "bonds": [],
+                "sentencing": [
+                    {
+                        "sentenceType": "Post Disposition Proceeding",
+                        "sentenceDate": "2023-11-16T00:00:00",
+                        "sentenceDateDisplay": "11/16/2023",
+                        "judicialOfficer": "Giza, Alexander C.D.",
+                        "amendReason": "Amended",
+                        "chargeNumber": "003",
+                        "chargeDescription": "VC23103.5-M Wet Reckless",
+                        "probation": [
+                            {
+                                "probationType": "Summary Probation",
+                                "duration": "12 months",
+                                "conditions": [],
+                                "excludeTollingDays": true,
+                                "conditionsDisplay": "",
+                                "statuses": [
+                                    {
+                                        "probationStatusCollectionID": "14848795",
+                                        "probationStatusCode": "REVK",
+                                        "status": "REVOKED",
+                                        "statusDate": "2023-11-16",
+                                        "statusDateObject": "2023-11-16T00:00:00",
+                                        "statusDateDisplay": "11/16/2023"
+                                    }
+                                ],
+                                "statusesDisplay": "11/16/2023: REVOKED",
+                                "lastStatus": {
+                                    "probationStatusCollectionID": "14848795",
+                                    "probationStatusCode": "REVK",
+                                    "status": "REVOKED",
+                                    "statusDate": "2023-11-16",
+                                    "statusDateObject": "2023-11-16T00:00:00",
+                                    "statusDateDisplay": "11/16/2023"
+                                },
+                                "probationDisplay": "Summary Probation<ul><li><b>Term</b>: 12 months</li><li><b>Status</b>: REVOKED</li></ul>"
+                            }
+                        ],
+                        "driversLicenseConditions": [
+                            {
+                                "conditions": [
+                                    {
+                                        "description": "DMV Reporting Conditions",
+                                        "duration": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "programs": [
+                            {
+                                "ordered": true,
+                                "recommended": false,
+                                "enrollByDate": "1900-01-01T00:00:00",
+                                "enrollByDateString": "",
+                                "description": "Licensed Alcohol and Drug Education Program",
+                                "completeByDate": "1900-01-01T00:00:00",
+                                "completeByDateString": "",
+                                "datesDisplay": ""
+                            }
+                        ],
+                        "confinements": [],
+                        "comments": [
+                            {
+                                "dispositionComponentInstanceID": "18909670",
+                                "comment": "THE COURT FINDS DEFENDANT HAS NO ABILITY TO PAY AND STAYS ALL ADMINISTRATIVE FEES. . DEFENDANT IS TO SUBMIT PROOF OF COMPLETION OF THE SB1176 PROGRAM DIRECTLY IN THE CLERK'S OFFICE NO LATER THAN NOVEMBER 8, 2023."
+                            }
+                        ],
+                        "commentsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Comments</div><ul><li>THE COURT FINDS DEFENDANT HAS NO ABILITY TO PAY AND STAYS ALL ADMINISTRATIVE FEES. . DEFENDANT IS TO SUBMIT PROOF OF COMPLETION OF THE SB1176 PROGRAM DIRECTLY IN THE CLERK'S OFFICE NO LATER THAN NOVEMBER 8, 2023.</li></ul></div>",
+                        "probationDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Probation</div><div><ul><li>Summary Probation<ul><li><b>Term</b>: 12 months</li><li><b>Status</b>: REVOKED</li></ul></li></ul></div>\r\n</div>\r\n",
+                        "driversLicenseConditionsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Driver's License Conditions</div><div><ul><li>DMV Reporting Conditions - </li></ul></div></div>",
+                        "programsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Programs</div><div><ul><li><b>Program Type: </b>Licensed Alcohol and Drug Education Program<ul><li><b>Ordered</b></li></ul></li></ul></div></div>",
+                        "confinementsDisplay": ""
+                    }
+                ],
+                "criminalRegister": ""
+            },
+            "documents": [],
+            "crossReferences": [
+                {
+                    "caseID": "16525380",
+                    "number": "01",
+                    "typeID": "DAID",
+                    "typeDescription": "Prosecutor Defendant ID Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "031883",
+                    "typeID": "DMVDN",
+                    "typeDescription": "DMV Docket Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "0901",
+                    "typeID": "RESPAGY",
+                    "typeDescription": "Responsible Agency Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "19405",
+                    "typeID": "DMVCRT",
+                    "typeDescription": "DMV Court Code"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "40168892",
+                    "typeID": "DAC",
+                    "typeDescription": "Prosecutor Case Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "45073238",
+                    "typeID": "MAIN",
+                    "typeDescription": "Main Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "9190797809",
+                    "typeID": "LPD",
+                    "typeDescription": "Local Police Department Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "A36245039",
+                    "typeID": "CII",
+                    "typeDescription": "CII Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "F4915810-CA",
+                    "typeID": "DL",
+                    "typeDescription": "Driver's License Number"
+                },
+                {
+                    "caseID": "16525380",
+                    "number": "PM52PHLNH",
+                    "typeID": "FBI",
+                    "typeDescription": "FBI Number"
+                }
+            ],
+            "caseNotes": [],
+            "message": "",
+            "caseNumber": "LAX0AR31883-01",
+            "caseID": "16525380",
+            "caseUType": "Criminal",
+            "caseUTypeID": "CR"
+        }
+    ],
+    "mode": "Odyssey=production,DataWarehouse=production"
+}

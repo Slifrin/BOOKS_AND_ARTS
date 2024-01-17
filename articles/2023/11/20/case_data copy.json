@@ -1,0 +1,995 @@
+{
+    "isSuccess": true,
+    "errorMessage": "",
+    "errorCode": 0,
+    "resultList": [
+        {
+            "caseType": "Criminal",
+            "securityLevel": 0,
+            "caseInfo": [
+                {
+                    "key": "Case Number",
+                    "value": "LAX2AR22891-01",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type Code",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Case ID",
+                    "value": "16543717",
+                    "toShow": false
+                },
+                {
+                    "key": "Defendant ID",
+                    "value": "01",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Date",
+                    "value": "12/28/2022",
+                    "toShow": true
+                },
+                {
+                    "key": "Arrest Date",
+                    "value": "12/26/2022",
+                    "toShow": true
+                },
+                {
+                    "key": "Filing Courthouse",
+                    "value": "Airport Courthouse",
+                    "toShow": true
+                },
+                {
+                    "key": "Case Type",
+                    "value": "Criminal",
+                    "toShow": false
+                },
+                {
+                    "key": "Case UType ID",
+                    "value": "CR",
+                    "toShow": false
+                },
+                {
+                    "key": "Criminal Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Court Location ID",
+                    "value": "150000",
+                    "toShow": false
+                },
+                {
+                    "key": "Case Title",
+                    "value": "The People of the State of California vs. MAGIC, PRINCE DAVID",
+                    "toShow": true
+                }
+            ],
+            "events": [
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-06-09T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-05-19T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2023-04-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "ADR Transmission",
+                    "eventTypeID": "83477",
+                    "eventTypeDescription": "ADR Transmission",
+                    "eventDate": "2022-12-30T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Arraignment Held",
+                    "eventTypeID": "81316",
+                    "eventTypeDescription": "Arraignment Held",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Minute Order",
+                    "eventTypeID": "4215",
+                    "eventTypeDescription": "Minute Order",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Advised of Charges and Direct Consequences of Plea",
+                    "eventTypeID": "81375",
+                    "eventTypeDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "eventTypeID": "88085",
+                    "eventTypeDescription": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Privilege Against Self-Incrimination",
+                    "eventTypeID": "81369",
+                    "eventTypeDescription": "Waived Privilege Against Self-Incrimination",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventTypeID": "81370",
+                    "eventTypeDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Waived Right to Trial by Court or Jury",
+                    "eventTypeID": "81372",
+                    "eventTypeDescription": "Waived Right to Trial by Court or Jury",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventTypeID": "88087",
+                    "eventTypeDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Complaint Filed",
+                    "eventTypeID": "81291",
+                    "eventTypeDescription": "Complaint Filed",
+                    "eventDate": "2022-12-28T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                },
+                {
+                    "eventType": "Defendant Arrested and Booked",
+                    "eventTypeID": "95659",
+                    "eventTypeDescription": "Defendant Arrested and Booked",
+                    "eventDate": "2022-12-26T00:00:00",
+                    "filedBy": "",
+                    "document": null,
+                    "comment": "",
+                    "isDocketable": true,
+                    "hiddenFromPublic": false,
+                    "dataSource": null
+                }
+            ],
+            "tabs": [
+                {
+                    "key": "CASE_INFORMATION",
+                    "value": "Case Information",
+                    "toShow": true
+                },
+                {
+                    "key": "PARTIES",
+                    "value": "Parties",
+                    "toShow": true
+                },
+                {
+                    "key": "HEARINGS",
+                    "value": "Proceedings",
+                    "toShow": true
+                },
+                {
+                    "key": "ROA",
+                    "value": "Register of Actions",
+                    "toShow": true
+                },
+                {
+                    "key": "BONDS",
+                    "value": "Bonds",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_CHARGES",
+                    "value": "Charges",
+                    "toShow": true
+                },
+                {
+                    "key": "CR_SENTENCING",
+                    "value": "Sentencing",
+                    "toShow": true
+                }
+            ],
+            "parties": [
+                {
+                    "partyName": "The People of the State of California",
+                    "partyTypeDescription": "Plaintiff",
+                    "remarks": "",
+                    "partyID": "1",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Plaintiff",
+                            "partyType": "Plaintiff",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Bradley Abraham Pregerson",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "157913",
+                    "barNumber": "295017",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Hayden Taylor Thomas",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "20780483",
+                    "barNumber": "320071",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Meryl Elise Chambers",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "129975",
+                    "barNumber": "265177",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Mathew Wagner Polin",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for The People of the State of California</li>\r\n<li>Deputy City Attorney</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "141871",
+                    "barNumber": "278190",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for The People of the State of California",
+                            "partyType": "Attorney",
+                            "associatedPerson": "The People of the State of California",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy City Attorney",
+                            "partyType": "Deputy City Attorney",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "PRINCE DAVID MAGIC",
+                    "partyTypeDescription": "Defendant",
+                    "remarks": "",
+                    "partyID": "25689279",
+                    "barNumber": "",
+                    "partyTypes": [
+                        {
+                            "displayText": "Defendant",
+                            "partyType": "Defendant",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Justin B. Raymond",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for PRINCE DAVID MAGIC</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "20773149",
+                    "barNumber": "311318",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for PRINCE DAVID MAGIC",
+                            "partyType": "Attorney",
+                            "associatedPerson": "PRINCE DAVID MAGIC",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Ashley X. Wu",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for PRINCE DAVID MAGIC</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "16053733",
+                    "barNumber": "321045",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for PRINCE DAVID MAGIC",
+                            "partyType": "Attorney",
+                            "associatedPerson": "PRINCE DAVID MAGIC",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                },
+                {
+                    "partyName": "Charles Robert Windon",
+                    "partyTypeDescription": "<ul style=\"position: relative; left: -27px;\">\r\n<li>Attorney for PRINCE DAVID MAGIC</li>\r\n<li>Deputy Public Defender</li>\r\n</ul>\r\n",
+                    "remarks": "",
+                    "partyID": "20781993",
+                    "barNumber": "321838",
+                    "partyTypes": [
+                        {
+                            "displayText": "Attorney for PRINCE DAVID MAGIC",
+                            "partyType": "Attorney",
+                            "associatedPerson": "PRINCE DAVID MAGIC",
+                            "assignType": null,
+                            "connection": null
+                        },
+                        {
+                            "displayText": "Deputy Public Defender",
+                            "partyType": "Deputy Public Defender",
+                            "associatedPerson": null,
+                            "assignType": null,
+                            "connection": null
+                        }
+                    ],
+                    "phoneNumbers": []
+                }
+            ],
+            "relatedCases": [],
+            "historicalDocuments": [],
+            "pastProceedings": [
+                {
+                    "proceedingDate": "2023-11-09T08:30:00",
+                    "location": "Airport",
+                    "department": "Clerk's Office",
+                    "proceedingType": "Proof of Completion",
+                    "proceedingTypeID": "111227",
+                    "proceedingResult": null,
+                    "judicialOfficer": null,
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-06-09T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 93",
+                    "proceedingType": "Setting of Violation Hearing",
+                    "proceedingTypeID": "108016",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Almada, Manuel",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-05-19T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 93",
+                    "proceedingType": "Bench Warrant Hold",
+                    "proceedingTypeID": "108022",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Gonzalez, Liliana",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2023-04-28T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 93",
+                    "proceedingType": "Proof of Completion",
+                    "proceedingTypeID": "111227",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Almada, Manuel",
+                    "hearingComment": "",
+                    "document": null
+                },
+                {
+                    "proceedingDate": "2022-12-28T08:30:00",
+                    "location": "Airport",
+                    "department": "Dept. - 93",
+                    "proceedingType": "Arraignment",
+                    "proceedingTypeID": "3310",
+                    "proceedingResult": "Proceedings Heard",
+                    "judicialOfficer": "Pines, Burt  AJ",
+                    "hearingComment": "",
+                    "document": null
+                }
+            ],
+            "futureProceedings": [],
+            "registerOfActions": [
+                {
+                    "actionDate": "2023-11-09T08:30:00",
+                    "actionDescription": "Proof of Completion",
+                    "additionalInformation": "(Airport Clerk's Office)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-06-09T08:30:00",
+                    "actionDescription": "Setting of Violation Hearing - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 93)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-06-09T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-05-19T08:30:00",
+                    "actionDescription": "Bench Warrant Hold - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 93)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-05-19T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-04-28T08:30:00",
+                    "actionDescription": "Proof of Completion - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 93)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2023-04-28T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-30T00:00:00",
+                    "actionDescription": "ADR Transmission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T08:30:00",
+                    "actionDescription": "Arraignment - Proceedings Heard",
+                    "additionalInformation": "(Airport Dept. - 93)",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Arraignment Held",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Minute Order",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Advised of Charges and Direct Consequences of Plea",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Defense Counsel Concurs in Defendant's Plea or Admission",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Waived Privilege Against Self-Incrimination",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Waived Right to Confront and Cross Examine Witnesses",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Waived Right to Trial by Court or Jury",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Court Found Plea Knowledgeable/Intelligently Made/Voluntary",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-28T00:00:00",
+                    "actionDescription": "Complaint Filed",
+                    "additionalInformation": "",
+                    "document": null
+                },
+                {
+                    "actionDate": "2022-12-26T00:00:00",
+                    "actionDescription": "Defendant Arrested and Booked",
+                    "additionalInformation": "",
+                    "document": null
+                }
+            ],
+            "otherCriminalInformation": {
+                "defendant": null,
+                "financialBalance": null,
+                "financialCollectionStatuses": null,
+                "warrants": null,
+                "interimConditions": [],
+                "charges": [
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX2AR22891-01",
+                        "defendantID": "",
+                        "countNumber": "001",
+                        "chargeCode": "PC422(a)",
+                        "statuteName": "PC422(a)-M Terrorist Threats",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "12/28/2022 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "12/28/2022 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2022-12-28T00:00:00",
+                        "chargeDispositionDateString": "12/28/2022",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX2AR22891-01",
+                        "defendantID": "",
+                        "countNumber": "002",
+                        "chargeCode": "PC602.1(a)",
+                        "statuteName": "PC602.1(a)-M Trespass-Obstruct-Etc. Business Operations-Etc.",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "12/28/2022 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "12/28/2022 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2022-12-28T00:00:00",
+                        "chargeDispositionDateString": "12/28/2022",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX2AR22891-01",
+                        "defendantID": "",
+                        "countNumber": "003",
+                        "chargeCode": "PC148(a)(1)",
+                        "statuteName": "PC148(a)(1)-M Resist, Obstruct, Delay of Peace Officer or Emergency Medical Technician",
+                        "statuteURL": "",
+                        "pleaHistory": [
+                            "12/28/2022: Pleads Nolo Contendere"
+                        ],
+                        "dispositions": [
+                            "12/28/2022 - Conviction After Plea"
+                        ],
+                        "pleaHistoryDisplay": "12/28/2022: Pleads Nolo Contendere",
+                        "lastDispositionDisplay": "12/28/2022 - Conviction After Plea",
+                        "chargeDispositionDate": "2022-12-28T00:00:00",
+                        "chargeDispositionDateString": "12/28/2022",
+                        "chargeDisposition": "Conviction After Plea",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "CON",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX2AR22891-01",
+                        "defendantID": "",
+                        "countNumber": "004",
+                        "chargeCode": "PC240-241(c)",
+                        "statuteName": "PC240-241(c)-M Assault",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "12/28/2022 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "12/28/2022 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2022-12-28T00:00:00",
+                        "chargeDispositionDateString": "12/28/2022",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    },
+                    {
+                        "locationID": "",
+                        "caseNumber": "LAX2AR22891-01",
+                        "defendantID": "",
+                        "countNumber": "005",
+                        "chargeCode": "PC148.9(a)",
+                        "statuteName": "PC148.9(a)-M False Identification to Specific Peace Officer",
+                        "statuteURL": "",
+                        "pleaHistory": [],
+                        "dispositions": [
+                            "12/28/2022 - Dismissed Due to Plea Negotiation"
+                        ],
+                        "pleaHistoryDisplay": "",
+                        "lastDispositionDisplay": "12/28/2022 - Dismissed Due to Plea Negotiation",
+                        "chargeDispositionDate": "2022-12-28T00:00:00",
+                        "chargeDispositionDateString": "12/28/2022",
+                        "chargeDisposition": "Dismissed Due to Plea Negotiation",
+                        "sentenceDispositionDate": "1900-01-01T00:00:00",
+                        "sentenceDispositionDateString": "",
+                        "sentenceDisposition": "",
+                        "garbageFlag": "",
+                        "dispositionCode": "DIN",
+                        "pendingHearing": "",
+                        "warrantFlag": "",
+                        "jurisdiction": ""
+                    }
+                ],
+                "bondSettings": [
+                    {
+                        "partyName": "PRINCE DAVID MAGIC",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-06-09T00:00:00",
+                        "settingDateDisplay": "6/9/2023",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "PRINCE DAVID MAGIC",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2023-05-19T00:00:00",
+                        "settingDateDisplay": "5/19/2023",
+                        "settingType": "Remains on Own Recognizance",
+                        "description": "Remains on Own Recognizance",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    },
+                    {
+                        "partyName": "PRINCE DAVID MAGIC",
+                        "settingGroupType": "By Case",
+                        "settingDate": "2022-12-28T00:00:00",
+                        "settingDateDisplay": "12/28/2022",
+                        "settingType": "On Probation",
+                        "description": "On Probation",
+                        "bailAmount": 0,
+                        "warrantID": ""
+                    }
+                ],
+                "bonds": [],
+                "sentencing": [
+                    {
+                        "sentenceType": "Post Disposition Proceeding",
+                        "sentenceDate": "2023-06-09T00:00:00",
+                        "sentenceDateDisplay": "6/9/2023",
+                        "judicialOfficer": "Almada, Manuel",
+                        "amendReason": "Amended",
+                        "chargeNumber": "003",
+                        "chargeDescription": "PC148(a)(1)-M Resist, Obstruct, Delay of Peace Officer or Emergency Medical Technician",
+                        "probation": [
+                            {
+                                "probationType": "Summary Probation",
+                                "duration": "12 months",
+                                "conditions": [],
+                                "excludeTollingDays": true,
+                                "conditionsDisplay": "",
+                                "statuses": [
+                                    {
+                                        "probationStatusCollectionID": "4033301",
+                                        "probationStatusCode": "PREF",
+                                        "status": "In Effect",
+                                        "statusDate": "2022-12-28",
+                                        "statusDateObject": "2022-12-28T00:00:00",
+                                        "statusDateDisplay": "12/28/2022"
+                                    },
+                                    {
+                                        "probationStatusCollectionID": "6809044",
+                                        "probationStatusCode": "REVK",
+                                        "status": "REVOKED",
+                                        "statusDate": "2023-04-28",
+                                        "statusDateObject": "2023-04-28T00:00:00",
+                                        "statusDateDisplay": "4/28/2023"
+                                    },
+                                    {
+                                        "probationStatusCollectionID": "9795293",
+                                        "probationStatusCode": "PRRV",
+                                        "status": "REMAINS REVOKED",
+                                        "statusDate": "2023-05-19",
+                                        "statusDateObject": "2023-05-19T00:00:00",
+                                        "statusDateDisplay": "5/19/2023"
+                                    },
+                                    {
+                                        "probationStatusCollectionID": "11997699",
+                                        "probationStatusCode": "REINSTC",
+                                        "status": "Reinstated on Same Terms and Conditions",
+                                        "statusDate": "2023-06-09",
+                                        "statusDateObject": "2023-06-09T00:00:00",
+                                        "statusDateDisplay": "6/9/2023"
+                                    }
+                                ],
+                                "statusesDisplay": "<ul><li>6/9/2023: Reinstated on Same Terms and Conditions</li><li>5/19/2023: REMAINS REVOKED</li><li>4/28/2023: REVOKED</li><li>12/28/2022: In Effect</li></ul>6/9/2023: Reinstated on Same Terms and Conditions",
+                                "lastStatus": {
+                                    "probationStatusCollectionID": "11997699",
+                                    "probationStatusCode": "REINSTC",
+                                    "status": "Reinstated on Same Terms and Conditions",
+                                    "statusDate": "2023-06-09",
+                                    "statusDateObject": "2023-06-09T00:00:00",
+                                    "statusDateDisplay": "6/9/2023"
+                                },
+                                "probationDisplay": "Summary Probation<ul><li><b>Term</b>: 12 months</li><li><b>Status</b>: Reinstated on Same Terms and Conditions</li></ul>"
+                            }
+                        ],
+                        "driversLicenseConditions": [],
+                        "programs": [],
+                        "confinements": [],
+                        "comments": [
+                            {
+                                "dispositionComponentInstanceID": "16171881",
+                                "comment": "PROOF OF ENROLLMENT OF COMMUNITY LABOR IS FILED THIS DATE. . PROOF OF COMPLETION OF THE COMMUNITY LABOR IS DUE NO LATER THAN NOVEMBER 9, 2023, IN THE CLERK'S OFFICE."
+                            }
+                        ],
+                        "commentsDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Comments</div><ul><li>PROOF OF ENROLLMENT OF COMMUNITY LABOR IS FILED THIS DATE. . PROOF OF COMPLETION OF THE COMMUNITY LABOR IS DUE NO LATER THAN NOVEMBER 9, 2023, IN THE CLERK'S OFFICE.</li></ul></div>",
+                        "probationDisplay": "<div style=\"padding-bottom: 10px;\"><div style=\"font-weight: bold;\">Probation</div><div><ul><li>Summary Probation<ul><li><b>Term</b>: 12 months</li><li><b>Status</b>: Reinstated on Same Terms and Conditions</li></ul></li></ul></div>\r\n</div>\r\n",
+                        "driversLicenseConditionsDisplay": "",
+                        "programsDisplay": "",
+                        "confinementsDisplay": ""
+                    }
+                ],
+                "criminalRegister": ""
+            },
+            "documents": [],
+            "crossReferences": [
+                {
+                    "caseID": "16543717",
+                    "number": "006526140",
+                    "typeID": "BK2",
+                    "typeDescription": "Current Booking Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "19405",
+                    "typeID": "DMVCRT",
+                    "typeDescription": "DMV Court Code"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "1965",
+                    "typeID": "RESPAGY",
+                    "typeDescription": "Responsible Agency Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "22127224",
+                    "typeID": "LPD",
+                    "typeDescription": "Local Police Department Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "222891",
+                    "typeID": "DMVDN",
+                    "typeDescription": "DMV Docket Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "45187059",
+                    "typeID": "MAIN",
+                    "typeDescription": "Main Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "950509RC9",
+                    "typeID": "FBI",
+                    "typeDescription": "FBI Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "A40913139",
+                    "typeID": "CII",
+                    "typeDescription": "CII Number"
+                },
+                {
+                    "caseID": "16543717",
+                    "number": "Y9104838-CA",
+                    "typeID": "DL",
+                    "typeDescription": "Driver's License Number"
+                }
+            ],
+            "caseNotes": [],
+            "message": "",
+            "caseNumber": "LAX2AR22891-01",
+            "caseID": "16543717",
+            "caseUType": "Criminal",
+            "caseUTypeID": "CR"
+        }
+    ],
+    "mode": "Odyssey=production,DataWarehouse=production"
+}

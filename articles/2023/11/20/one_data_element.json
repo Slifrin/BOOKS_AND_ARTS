@@ -1,0 +1,71 @@
+    {
+        "execution_id": "e3d2f44f1ed5426b939daff5db3b26d0",
+        "raw_record_id": "ecda5c96de634c76ad52214bce8f66ec",
+        "extracted_date": "2023-11-08 12:03:16.963055",
+        "last_name": "ROJAS",
+        "first_name": "BLAKE",
+        "offense_list": [
+            {
+                "case_number": "LAXSA108970-01",
+                "offense_date": "October 9, 2023",
+                "case_filed_date": "October 11, 2023",
+                "court_name": "Airport Courthouse",
+                "additional_info_dict": {
+                    "other_case_number": "SA108970",
+                    "future_event_date": "November 8, 2023",
+                    "future_event_time": "08:30 AM",
+                    "future_event_location": "Airport Courthouse",
+                    "future_event_dept_room_number": "W80",
+                    "future_event": "RESTITUTION HEARING",
+                    "past_event_date": "October 11, 2023;October 25, 2023",
+                    "past_event_time": "08:30 AM;08:30 AM",
+                    "past_event_location": "Airport Courthouse;Airport Courthouse",
+                    "past_event_dept_room_number": "W30;W31",
+                    "past_event": "ARRAIGNMENT;PRELIMINARY HEARING"
+                },
+                "offense_count": "01",
+                "offense_code": "245(A)(1)",
+                "offense_type": "Penal Code",
+                "plea_final": "Not Guilty",
+                "disposition": "Dismissed or Not Prosecuted",
+                "disposition_date": "10/25/2023"
+            },
+            {
+                "case_number": "LAXSA108970-01",
+                "offense_date": "October 9, 2023",
+                "case_filed_date": "October 11, 2023",
+                "court_name": "Airport Courthouse",
+                "additional_info_dict": {
+                    "other_case_number": "SA108970",
+                    "future_event_date": "November 8, 2023",
+                    "future_event_time": "08:30 AM",
+                    "future_event_location": "Airport Courthouse",
+                    "future_event_dept_room_number": "W80",
+                    "future_event": "RESTITUTION HEARING",
+                    "past_event_date": "October 11, 2023;October 25, 2023",
+                    "past_event_time": "08:30 AM;08:30 AM",
+                    "past_event_location": "Airport Courthouse;Airport Courthouse",
+                    "past_event_dept_room_number": "W30;W31",
+                    "past_event": "ARRAIGNMENT;PRELIMINARY HEARING"
+                },
+                "offense_count": "02",
+                "offense_code": "245(A)(4)",
+                "offense_type": "Penal Code",
+                "plea_final": "Nolo Contendere",
+                "disposition": "Guilty/Convicted",
+                "disposition_date": "10/25/2023",
+                "sentence_list": [
+                    {
+                        "sentencing_date": "October 25, 2023",
+                        "probation_duration": "FORMAL PROBATION 2 YEAR(S)",
+                        "additional_info_dict": {
+                            "jail_term_2": "365 DAY(S) IN LOS ANGELES COUNTY JAIL",
+                            "base_fine_total_fine_1": "$0.00",
+                            "base_fine_total_fine_2": "$0.00"
+                        }
+                    }
+                ]
+            }
+        ],
+        "_type": "Defendant"
+    }
