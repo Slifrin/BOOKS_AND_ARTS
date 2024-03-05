@@ -169,3 +169,5 @@ data.txt
 secrets.json
 
 .env
+
+venv_*/
