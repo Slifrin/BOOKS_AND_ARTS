@@ -7,7 +7,7 @@
 
         {
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "internalConsole"
@@ -27,7 +27,7 @@
         },
         {
             "name": "scrapy - spider",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "module": "scrapy.cmdline",
             "justMyCode": false,
