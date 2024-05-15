@@ -171,3 +171,6 @@ secrets.json
 .env
 
 venv_*/
+
+# Don't track logs
+*.log

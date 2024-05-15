@@ -12,19 +12,17 @@ def get_rect(x, y):
 
 
 def get_next_nodes(x, y):
-    check_next_node = (
-        lambda x, y: True
-        if 0 <= x < cols and 0 <= y < rows and not grid[y][x]
-        else False
+    check_next_node = lambda x, y: (
+        True if 0 <= x < cols and 0 <= y < rows and not grid[y][x] else False
     )
-    ways = [-1, 0], [0, -1], [1, 0], [0, 1] #, [-1, 1], [1, 1], [-1, -1], [1, -1]
+    ways = [-1, 0], [0, -1], [1, 0], [0, 1]  # , [-1, 1], [1, 1], [-1, -1], [1, -1]
     return [(x + dx, y + dy) for dx, dy in ways if check_next_node(x + dx, y + dy)]
 
 
 def get_click_mouse_pos():
     x, y = pygame.mouse.get_pos()
     grid_x, grid_y = x // TILE, y // TILE
-    pygame.draw.rect(screen, pygame.Color('red'), get_rect(grid_x, grid_y))
+    pygame.draw.rect(screen, pygame.Color("red"), get_rect(grid_x, grid_y))
     click = pygame.mouse.get_pressed()
 
     return (grid_x, grid_y) if click[0] else False
@@ -46,6 +44,7 @@ def bfs(start, goal, graph):
                 visited[next_node] = cur_node
 
     return queue, visited
+
 
 pygame.init()
 screen = pygame.display.set_mode((cols * TILE, rows * TILE))
@@ -109,11 +108,25 @@ while running:
     path_head, path_segment = goal, goal
 
     while path_segment:
-        pygame.draw.rect(screen, pygame.Color("white"), get_rect(*path_segment), TILE, border_radius=TILE // 3)
+        pygame.draw.rect(
+            screen,
+            pygame.Color("white"),
+            get_rect(*path_segment),
+            TILE,
+            border_radius=TILE // 3,
+        )
         path_segment = visited[path_segment]
 
-    pygame.draw.rect(screen, pygame.Color("blue"), get_rect(*start), TILE, border_radius=TILE // 3)
-    pygame.draw.rect(screen, pygame.Color("magenta"), get_rect(*path_head), TILE, border_radius=TILE // 3)
+    pygame.draw.rect(
+        screen, pygame.Color("blue"), get_rect(*start), TILE, border_radius=TILE // 3
+    )
+    pygame.draw.rect(
+        screen,
+        pygame.Color("magenta"),
+        get_rect(*path_head),
+        TILE,
+        border_radius=TILE // 3,
+    )
 
     pygame.display.flip()
 
