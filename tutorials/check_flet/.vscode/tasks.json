@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "go",
+			"label": "go: build package",
+			"command": "build",
+			"args": [
+				"${fileDirname}"
+			],
+			"problemMatcher": [
+				"$go"
+			],
+			"group": "build",
+			"detail": "cd /Users/Jerzy_Kiedrowski/Desktop/NAUKA/py_fun/books_and_arts/tutorials/check_flet; go build ${fileDirname}"
+		}
+	]
+}
