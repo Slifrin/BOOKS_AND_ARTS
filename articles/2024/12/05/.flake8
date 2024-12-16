@@ -1,0 +1,8 @@
+[flake8]
+# options go here
+
+[flake8:local-plugins]
+extension = 
+    J1 = custom_checker:JurekASTPlugin
+paths = 
+    ./

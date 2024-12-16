@@ -35,9 +35,22 @@ def more_complex_example():
     cv2.destroyAllWindows()
 
 
+def better_example():
+    bounding_box = {'top': 100, 'left': 0, 'width': 400, 'height': 300}
+    
+    with mss() as sct:
+        while True:
+            sct_grab = sct.grab(bounding_box)
+            cv2.imshow('test_screen', np.array(sct_grab))
+
+            if cv2.waitKey(0) & 0xFF == ord('q'):
+                cv2.destroyAllWindows()
+                break
+
+
 def main() -> None:
     print(f"Hello main from : {__file__}")
-    simple_example()
+    # simple_example()
     more_complex_example()
 
 
