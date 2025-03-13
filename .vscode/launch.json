@@ -38,6 +38,16 @@
             },
             "console": "internalConsole",
             "args": ["crawl",  "b4sport"]
+        },
+        {
+            "name": "file in local venv",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "internalConsole",
+            "justMyCode": false,
+            "cwd": "${fileDirname}",
+            "python": "${fileDirname}/.venv/bin/python3",
         }
     ]
 }
