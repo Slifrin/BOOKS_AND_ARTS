@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, accessible task manager web application for organizing your daily tasks">
+    <title>Task Manager - Organize Your Day</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">
+                    <svg class="app-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Task Manager
+                </h1>
+                <p class="app-subtitle">Stay organized and productive</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Task Input Section -->
+            <section class="task-input-section" aria-labelledby="add-task-heading">
+                <h2 id="add-task-heading" class="section-title">Add New Task</h2>
+                <form class="task-form" id="taskForm" novalidate>
+                    <div class="input-group">
+                        <label for="taskInput" class="input-label">Task Description</label>
+                        <div class="input-wrapper">
+                            <input 
+                                type="text" 
+                                id="taskInput" 
+                                class="task-input" 
+                                placeholder="Enter your task here..."
+                                required
+                                aria-describedby="taskInputError"
+                                maxlength="200"
+                            >
+                            <button 
+                                type="submit" 
+                                class="add-button"
+                                aria-label="Add task"
+                                title="Add new task"
+                            >
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Add Task
+                            </button>
+                        </div>
+                        <div id="taskInputError" class="error-message" role="alert" aria-live="polite"></div>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Task Statistics -->
+            <section class="stats-section" aria-labelledby="stats-heading">
+                <h2 id="stats-heading" class="section-title visually-hidden">Task Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalTasks">0</div>
+                        <div class="stat-label">Total Tasks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="completedTasks">0</div>
+                        <div class="stat-label">Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="pendingTasks">0</div>
+                        <div class="stat-label">Pending</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Task Filter Controls -->
+            <section class="filter-section" aria-labelledby="filter-heading">
+                <h2 id="filter-heading" class="section-title">Filter Tasks</h2>
+                <div class="filter-controls" role="group" aria-labelledby="filter-heading">
+                    <button class="filter-button active" data-filter="all" type="button">
+                        All Tasks
+                    </button>
+                    <button class="filter-button" data-filter="pending" type="button">
+                        Pending
+                    </button>
+                    <button class="filter-button" data-filter="completed" type="button">
+                        Completed
+                    </button>
+                </div>
+            </section>
+
+            <!-- Task List Section -->
+            <section class="task-list-section" aria-labelledby="task-list-heading">
+                <div class="section-header">
+                    <h2 id="task-list-heading" class="section-title">Your Tasks</h2>
+                    <button 
+                        id="clearCompleted" 
+                        class="clear-button"
+                        type="button"
+                        title="Clear all completed tasks"
+                    >
+                        Clear Completed
+                    </button>
+                </div>
+                
+                <div class="task-list-container">
+                    <ul id="taskList" class="task-list" role="list" aria-live="polite" aria-label="Task list">
+                        <!-- Tasks will be dynamically inserted here -->
+                    </ul>
+                    
+                    <!-- Empty State -->
+                    <div id="emptyState" class="empty-state">
+                        <svg class="empty-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 class="empty-title">No tasks yet</h3>
+                        <p class="empty-description">Add your first task above to get started with organizing your day!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer" role="contentinfo">
+            <p class="footer-text">
+                Built with ♥ for productivity | 
+                <button class="footer-link" type="button" id="shortcutsHelp">Keyboard Shortcuts</button>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Keyboard Shortcuts Modal -->
+    <div id="shortcutsModal" class="modal-overlay" role="dialog" aria-labelledby="shortcuts-title" aria-hidden="true">
+        <div class="modal-content" role="document">
+            <div class="modal-header">
+                <h2 id="shortcuts-title" class="modal-title">Keyboard Shortcuts</h2>
+                <button class="modal-close" type="button" aria-label="Close shortcuts modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="shortcuts-list">
+                    <div class="shortcut-item">
+                        <kbd class="shortcut-key">Enter</kbd>
+                        <span class="shortcut-desc">Add new task</span>
+                    </div>
+                    <div class="shortcut-item">
+                        <kbd class="shortcut-key">Space</kbd>
+                        <span class="shortcut-desc">Toggle task completion</span>
+                    </div>
+                    <div class="shortcut-item">
+                        <kbd class="shortcut-key">Delete</kbd>
+                        <span class="shortcut-desc">Delete selected task</span>
+                    </div>
+                    <div class="shortcut-item">
+                        <kbd class="shortcut-key">Esc</kbd>
+                        <span class="shortcut-desc">Close modal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
